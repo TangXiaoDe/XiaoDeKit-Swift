@@ -40,9 +40,11 @@ Pod::Spec.new do |s|
 
   # ―――――――――― Source  ―――――――――― #
   s.source       = { :git => "https://github.com/TangXiaoDe/XiaoDeKit-Swift.git", :tag => "#{s.version}" } #你的仓库地址，不能用SSH地址
-  # s.source_files = "XiaoDeKit-Swift/*.{swift,h,m}" # 你代码的位置， XiaoDeKit-Swift/*.{swift,h,m} 表示 XiaoDeKit-Swift 文件夹下所有的.swift、.h和.m文件
+  # s.source_files = "Classes/**/*.{h,m,swift}" # 你代码的位置， XiaoDeKit-Swift/*.{swift,h,m} 表示 XiaoDeKit-Swift 文件夹下所有的.swift、.h和.m文件
+  # s.source_files = "Classes", "**/*.{h,m,swift}" # 你代码的位置， XiaoDeKit-Swift/*.{swift,h,m} 表示 XiaoDeKit-Swift 文件夹下所有的.swift、.h和.m文件
+  s.source_files       = 'XiaoDeKit-Swift/*.swift'
 
-  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # s.source_files  = "Classes", "XiaoDeKit-Swift/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
