@@ -12,8 +12,9 @@ Pod::Spec.new do |s|
 
   # ―――――――――― Spec Metadata  ―――――――――― #
   s.name         = "XiaoDeKit-Swift" # 项目名称
-  s.version      = "0.0.1"        # 版本号 与 你仓库的 标签号 对应
+  s.version      = "0.0.2"        # 版本号 与 你仓库的 标签号 对应
   s.summary      = "SiwftKit written by TangXiaoDe" # 项目简介
+  s.module_name   = 'XiaoDeKit'
 
 
   # ―――――――――― Project Description  ―――――――――― #
@@ -40,10 +41,10 @@ Pod::Spec.new do |s|
 
   # ―――――――――― Source  ―――――――――― #
   s.source       = { :git => "https://github.com/TangXiaoDe/XiaoDeKit-Swift.git", :tag => "#{s.version}" } #你的仓库地址，不能用SSH地址
+  s.source_files = "XiaoDeKit-Swift/**/*.{h,m,swift}"
+  
   # s.source_files = "Classes/**/*.{h,m,swift}" # 你代码的位置， XiaoDeKit-Swift/*.{swift,h,m} 表示 XiaoDeKit-Swift 文件夹下所有的.swift、.h和.m文件
   # s.source_files = "Classes", "**/*.{h,m,swift}" # 你代码的位置， XiaoDeKit-Swift/*.{swift,h,m} 表示 XiaoDeKit-Swift 文件夹下所有的.swift、.h和.m文件
-  s.source_files       = 'XiaoDeKit-Swift/*.swift'
-
   # s.source_files  = "Classes", "XiaoDeKit-Swift/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
@@ -57,6 +58,7 @@ Pod::Spec.new do |s|
 
   # ―――――――――― Project Linking ―――――――――― #
   s.frameworks   = "UIKit", "Foundation" #支持的框架
+  s.swift_version = '3.2'
   
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
@@ -69,6 +71,9 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
   # s.dependency = "SnapKit" # 依赖库
+
+  
+  
 
 
 
