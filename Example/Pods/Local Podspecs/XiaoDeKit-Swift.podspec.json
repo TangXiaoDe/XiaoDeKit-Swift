@@ -1,7 +1,7 @@
 {
   "name": "XiaoDeKit-Swift",
   "module_name": "XiaoDeKit",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "summary": "the kit for package written by TangXiaoDe in swift",
   "license": "MIT",
   "homepage": "https://github.com/TangXiaoDe/XiaoDeKit-Swift.git",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/TangXiaoDe/XiaoDeKit-Swift.git",
-    "tag": "#{s.version}"
+    "tag": "#{spec.version}"
   },
   "platforms": {
     "ios": "9.0"
