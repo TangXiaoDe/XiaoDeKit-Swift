@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E1BA4CEE37E85234E28F1EF9B5E431 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8DA5BCEDE0ED598FEC19CB7A0F56A /* UIColor+Extension.swift */; };
+		1660491E18237F59DDAFCD056F43F4E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1CB52FA99A4BD277543A989DA789D724 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CCF5EEE566BD7D86E03B8E6A258470 /* Double+Extension.swift */; };
+		2284D958C0CD8AD3B51C1AF61D95DC57 /* UIViewController+UMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DB8E90E8771E9FCDE1C0CCFAE4E84 /* UIViewController+UMExtension.swift */; };
+		2DA88FBD7DC5779DB0B539B25888CB79 /* UITabBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6825C96EA3E54189F362ADB88DB9AFF8 /* UITabBar+Extension.swift */; };
+		42C86FBD178A8E3F195BF3121ED18A42 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383A9EF5F93B4E9313EE62C3570CC5C /* UIViewController+Extension.swift */; };
+		4A411F4FCB56F4FCED957C52766B6493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4C86A82F23D6BAB41071AEA41E5D711A /* Timer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE81CD5775F43C2E254B36ED1502B2 /* Timer+Extension.swift */; };
+		587CC0ECC930AD7DDDB71EF60EEE76BC /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B85B8EB716DFC703A8E5D3BD5B12119 /* FileManager+Extension.swift */; };
+		5EBE3C366C88F361CC4453A461BF8FC7 /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F542897F8DF54DE9B0586597E408C1D /* NSMutableAttributedString+Extension.swift */; };
+		60B5B4FF1A0F1219A24E69E140276F09 /* Pods-XiaoDeKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4B670C7D6D47819904735457B19367 /* Pods-XiaoDeKitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631F798861D1B5AD011F621B461EF6ED /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2676BEDDB53479A79480981EA6F0B63 /* NSAttributedString+Extension.swift */; };
+		6CBF4BC2063D0D37B8DF48A557958390 /* Pods-XiaoDeKit-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F74AD2AFC958A35FC5C3CEE80773BAD /* Pods-XiaoDeKit-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A37078E1886175D93257400AA2C1AE /* String+Regular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BFACBD0AF1FC393AFCC56B5408E14 /* String+Regular.swift */; };
+		999EA7B78766BD2A26403FD3112F9063 /* Pods-XiaoDeKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BC488437C2E714806BFB2620CD1707 /* Pods-XiaoDeKitTests-dummy.m */; };
+		9B763DB1E5F802BE577DF0507B32395A /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7893403FF09CBF65B66CDB3D8F5FD64 /* UIDevice+Extension.swift */; };
+		9CB9AAAE473A343D5FC012ABEF86A21D /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BCDA7CFA115A5D0A543B370C52C62 /* UIImage+Extension.swift */; };
+		AEB83C83009DB19AFB03E992F4D3059F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C2C1BACFD336981529D63E67A1ED83FE /* Pods-XiaoDeKit-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B196E39D659D51522A183F40213E46 /* Pods-XiaoDeKit-Example-dummy.m */; };
+		C4396B1404869C5F5074ECE5F86687CE /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058C739CFF23EB5D2A8AC4C05AA61 /* Date+Extension.swift */; };
+		C8DB021039CC6EEBFE6771AB10CC3539 /* XiaoDeKit-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAF6A669B35028892E6F9EDD00AD468 /* XiaoDeKit-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C967AD2B1061FD4F1B31FB52B82F5F /* XDPackageTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227719A16D58B39350DD4277CFE460A4 /* XDPackageTimer.swift */; };
+		D6667763A53FA5DF2E30A61FAFA392B0 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283040099B7CB8249A261155075E032 /* String+Extension.swift */; };
+		D72859CC469B0495DA2758D5B621299C /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C53A01B1330498D3A1D67C49280951 /* UILabel+Extension.swift */; };
+		D8C3885DCF784CFC45BEC3851BFFE21A /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C5AA3559FD5EFF5FA01CCA2B630D64 /* UIButton+Extension.swift */; };
+		DFAC18EEC1BDDE5B10326018A070748E /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9875B7A958EDBDCE79C622D63DE2E4C /* UINavigationController+Extension.swift */; };
+		F3E0E34AD9A0357A2A47160B0BC2B500 /* XiaoDeKit-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AE1BFD9D9B1CD7A554151CD4244D8 /* XiaoDeKit-Swift-dummy.m */; };
+		F70F7AB153B9CC583C8512C0444268CE /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E13FEBAAEE45CA551AFD342AB7089C /* UITextField+Extension.swift */; };
+		FC1EA07C3ACCBB7A00A739F7E0011BEC /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04EF3BA5209FDD2083F2BB10F851293 /* CGFloat+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E0D6BE792F7335B7358EB0E417FD3EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00642C9C38E35D9BBB854B029962B282;
+			remoteInfo = "XiaoDeKit-Swift";
+		};
+		803836F27459F55CF9732714E1B3FD02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5205B1FA3EE18F8CF33D9C70A62B938C;
+			remoteInfo = "Pods-XiaoDeKit-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0473453AACD53EA952AA4B5BFFA43A19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		11850C4C6660B9F4F6FF97C832CC8D70 /* Pods-XiaoDeKit-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKit-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		125AAA3A5F89C10D993C1EBCB43F9C03 /* Pods-XiaoDeKit-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XiaoDeKit-Example.modulemap"; sourceTree = "<group>"; };
+		172527C8D437E0AC6358FC832BA20D2B /* Pods_XiaoDeKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XiaoDeKitTests.framework; path = "Pods-XiaoDeKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BC488437C2E714806BFB2620CD1707 /* Pods-XiaoDeKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XiaoDeKitTests-dummy.m"; sourceTree = "<group>"; };
+		1AE827DFD53C35B8C1A2D4BD27113BB5 /* Pods-XiaoDeKit-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKit-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		227719A16D58B39350DD4277CFE460A4 /* XDPackageTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDPackageTimer.swift; path = XiaoDeKit/Classes/XDPackageTimer/XDPackageTimer.swift; sourceTree = "<group>"; };
+		29C53A01B1330498D3A1D67C49280951 /* UILabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		2B85B8EB716DFC703A8E5D3BD5B12119 /* FileManager+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		31B04DD42822BC5FD53ED28CBE7227B0 /* XiaoDeKit-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "XiaoDeKit-Swift.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3283040099B7CB8249A261155075E032 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		33E13FEBAAEE45CA551AFD342AB7089C /* UITextField+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		363FBCD4E6689F1F9FB3259D9F92ED6C /* Pods-XiaoDeKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		371BDD880B9FD8B188ECC8246DFE2589 /* XiaoDeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XiaoDeKit.framework; path = "XiaoDeKit-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEBC810C49014CDEB03DBA57905B429 /* Pods-XiaoDeKitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKitTests-Info.plist"; sourceTree = "<group>"; };
+		3F74AD2AFC958A35FC5C3CEE80773BAD /* Pods-XiaoDeKit-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoDeKit-Example-umbrella.h"; sourceTree = "<group>"; };
+		5185E718C7CEAB52038C7FE2EFB008FE /* Pods-XiaoDeKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51C5AA3559FD5EFF5FA01CCA2B630D64 /* UIButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		5397821849E0E119EFCF95A9D271961E /* Pods_XiaoDeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XiaoDeKit_Example.framework; path = "Pods-XiaoDeKit-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F8DA5BCEDE0ED598FEC19CB7A0F56A /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		5B1058C739CFF23EB5D2A8AC4C05AA61 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		5B7AE1BFD9D9B1CD7A554151CD4244D8 /* XiaoDeKit-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XiaoDeKit-Swift-dummy.m"; sourceTree = "<group>"; };
+		651BFACBD0AF1FC393AFCC56B5408E14 /* String+Regular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Regular.swift"; sourceTree = "<group>"; };
+		652DB8E90E8771E9FCDE1C0CCFAE4E84 /* UIViewController+UMExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+UMExtension.swift"; sourceTree = "<group>"; };
+		6825C96EA3E54189F362ADB88DB9AFF8 /* UITabBar+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBar+Extension.swift"; sourceTree = "<group>"; };
+		68B49802373735E3F6121C3C16E0F731 /* XiaoDeKit-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "XiaoDeKit-Swift.xcconfig"; sourceTree = "<group>"; };
+		6F542897F8DF54DE9B0586597E408C1D /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		70B196E39D659D51522A183F40213E46 /* Pods-XiaoDeKit-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XiaoDeKit-Example-dummy.m"; sourceTree = "<group>"; };
+		7CAF6A669B35028892E6F9EDD00AD468 /* XiaoDeKit-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoDeKit-Swift-umbrella.h"; sourceTree = "<group>"; };
+		7DA60E5D85091B798B7A67999F5C9F1A /* Pods-XiaoDeKit-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKit-Example-Info.plist"; sourceTree = "<group>"; };
+		840B21F5B1A975FDC2F4E34EAB29BBFF /* Pods-XiaoDeKit-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKit-Example.release.xcconfig"; sourceTree = "<group>"; };
+		8563A1D4FAC3C079428AB989BDC2FF77 /* XiaoDeKit-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "XiaoDeKit-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87EA940035B8B327C6A7A91B4E14A7D4 /* Pods-XiaoDeKit-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XiaoDeKit-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92CCF5EEE566BD7D86E03B8E6A258470 /* Double+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		999C2821D23F2F889CBCE551FE6CCB64 /* Pods-XiaoDeKit-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XiaoDeKit-Example-frameworks.sh"; sourceTree = "<group>"; };
+		9C8C477C75D08F059FF009ADF9355903 /* Pods-XiaoDeKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XiaoDeKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B383A9EF5F93B4E9313EE62C3570CC5C /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		B7893403FF09CBF65B66CDB3D8F5FD64 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		B87D5C21B97B964506881CFCF0743D75 /* Pods-XiaoDeKitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XiaoDeKitTests.modulemap"; sourceTree = "<group>"; };
+		BE4B670C7D6D47819904735457B19367 /* Pods-XiaoDeKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoDeKitTests-umbrella.h"; sourceTree = "<group>"; };
+		C53CAAF688C5B6BC99D5BB56E98A5950 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CBBE81CD5775F43C2E254B36ED1502B2 /* Timer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Timer+Extension.swift"; sourceTree = "<group>"; };
+		CBD60E81B9499DDDF926D6A4D5775681 /* XiaoDeKit-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XiaoDeKit-Swift-Info.plist"; sourceTree = "<group>"; };
+		CEE6FEC4A687A866CD4DA2F742BB9009 /* XiaoDeKit-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoDeKit-Swift-prefix.pch"; sourceTree = "<group>"; };
+		D29BCDA7CFA115A5D0A543B370C52C62 /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		E9875B7A958EDBDCE79C622D63DE2E4C /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		ED0CEC6A92A7E705B37B1F20C1311553 /* Pods-XiaoDeKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		F04EF3BA5209FDD2083F2BB10F851293 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		F2676BEDDB53479A79480981EA6F0B63 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		348D502081C7377578A51BB54AC2619B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1660491E18237F59DDAFCD056F43F4E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1061B7AA8F5F5521CC64E11156E4415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A411F4FCB56F4FCED957C52766B6493 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6479A6975D8FE3B2BD7638444613F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB83C83009DB19AFB03E992F4D3059F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7AB45D3255D344C040BC9445800B46 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4B51CC84585A13FA3E522227837D226 /* XiaoDeKit-Swift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		163BC12C58DC3F805B319DF368AE11B1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3EB7544C82FE0201EFE6C809A592A0C7 /* Foundation+Extension */,
+				3572E5B3FA2DB37C3EC4C6D4715A42F1 /* UIKit+Extension */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		249F7B943A40E1890DB5784C4DE37D16 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E17FBAF0B6A9555FC6DAC4FCFB4A22 /* Pods-XiaoDeKit-Example */,
+				BFE0E20AD59885871F23B0B6DFA4CFC4 /* Pods-XiaoDeKitTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3572E5B3FA2DB37C3EC4C6D4715A42F1 /* UIKit+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				51C5AA3559FD5EFF5FA01CCA2B630D64 /* UIButton+Extension.swift */,
+				54F8DA5BCEDE0ED598FEC19CB7A0F56A /* UIColor+Extension.swift */,
+				B7893403FF09CBF65B66CDB3D8F5FD64 /* UIDevice+Extension.swift */,
+				D29BCDA7CFA115A5D0A543B370C52C62 /* UIImage+Extension.swift */,
+				29C53A01B1330498D3A1D67C49280951 /* UILabel+Extension.swift */,
+				E9875B7A958EDBDCE79C622D63DE2E4C /* UINavigationController+Extension.swift */,
+				6825C96EA3E54189F362ADB88DB9AFF8 /* UITabBar+Extension.swift */,
+				33E13FEBAAEE45CA551AFD342AB7089C /* UITextField+Extension.swift */,
+				B383A9EF5F93B4E9313EE62C3570CC5C /* UIViewController+Extension.swift */,
+				652DB8E90E8771E9FCDE1C0CCFAE4E84 /* UIViewController+UMExtension.swift */,
+			);
+			name = "UIKit+Extension";
+			path = "XiaoDeKit/Classes/Extension/UIKit+Extension";
+			sourceTree = "<group>";
+		};
+		3EB7544C82FE0201EFE6C809A592A0C7 /* Foundation+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F04EF3BA5209FDD2083F2BB10F851293 /* CGFloat+Extension.swift */,
+				5B1058C739CFF23EB5D2A8AC4C05AA61 /* Date+Extension.swift */,
+				92CCF5EEE566BD7D86E03B8E6A258470 /* Double+Extension.swift */,
+				2B85B8EB716DFC703A8E5D3BD5B12119 /* FileManager+Extension.swift */,
+				F2676BEDDB53479A79480981EA6F0B63 /* NSAttributedString+Extension.swift */,
+				6F542897F8DF54DE9B0586597E408C1D /* NSMutableAttributedString+Extension.swift */,
+				3283040099B7CB8249A261155075E032 /* String+Extension.swift */,
+				651BFACBD0AF1FC393AFCC56B5408E14 /* String+Regular.swift */,
+				CBBE81CD5775F43C2E254B36ED1502B2 /* Timer+Extension.swift */,
+			);
+			name = "Foundation+Extension";
+			path = "XiaoDeKit/Classes/Extension/Foundation+Extension";
+			sourceTree = "<group>";
+		};
+		64770E55D2398A9BAD7274B8FBF30855 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31B04DD42822BC5FD53ED28CBE7227B0 /* XiaoDeKit-Swift.modulemap */,
+				68B49802373735E3F6121C3C16E0F731 /* XiaoDeKit-Swift.xcconfig */,
+				5B7AE1BFD9D9B1CD7A554151CD4244D8 /* XiaoDeKit-Swift-dummy.m */,
+				CBD60E81B9499DDDF926D6A4D5775681 /* XiaoDeKit-Swift-Info.plist */,
+				CEE6FEC4A687A866CD4DA2F742BB9009 /* XiaoDeKit-Swift-prefix.pch */,
+				7CAF6A669B35028892E6F9EDD00AD468 /* XiaoDeKit-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XiaoDeKit-Swift";
+			sourceTree = "<group>";
+		};
+		7BC4BB4753A95784A5EA18D15BCE0DAE /* XDPackageTimer */ = {
+			isa = PBXGroup;
+			children = (
+				227719A16D58B39350DD4277CFE460A4 /* XDPackageTimer.swift */,
+			);
+			name = XDPackageTimer;
+			sourceTree = "<group>";
+		};
+		8CACB8209D9D8697FE8C7A38D9A3C655 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0473453AACD53EA952AA4B5BFFA43A19 /* LICENSE */,
+				C53CAAF688C5B6BC99D5BB56E98A5950 /* README.md */,
+				8563A1D4FAC3C079428AB989BDC2FF77 /* XiaoDeKit-Swift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A9E17FBAF0B6A9555FC6DAC4FCFB4A22 /* Pods-XiaoDeKit-Example */ = {
+			isa = PBXGroup;
+			children = (
+				125AAA3A5F89C10D993C1EBCB43F9C03 /* Pods-XiaoDeKit-Example.modulemap */,
+				87EA940035B8B327C6A7A91B4E14A7D4 /* Pods-XiaoDeKit-Example-acknowledgements.markdown */,
+				11850C4C6660B9F4F6FF97C832CC8D70 /* Pods-XiaoDeKit-Example-acknowledgements.plist */,
+				70B196E39D659D51522A183F40213E46 /* Pods-XiaoDeKit-Example-dummy.m */,
+				999C2821D23F2F889CBCE551FE6CCB64 /* Pods-XiaoDeKit-Example-frameworks.sh */,
+				7DA60E5D85091B798B7A67999F5C9F1A /* Pods-XiaoDeKit-Example-Info.plist */,
+				3F74AD2AFC958A35FC5C3CEE80773BAD /* Pods-XiaoDeKit-Example-umbrella.h */,
+				1AE827DFD53C35B8C1A2D4BD27113BB5 /* Pods-XiaoDeKit-Example.debug.xcconfig */,
+				840B21F5B1A975FDC2F4E34EAB29BBFF /* Pods-XiaoDeKit-Example.release.xcconfig */,
+			);
+			name = "Pods-XiaoDeKit-Example";
+			path = "Target Support Files/Pods-XiaoDeKit-Example";
+			sourceTree = "<group>";
+		};
+		BFE0E20AD59885871F23B0B6DFA4CFC4 /* Pods-XiaoDeKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B87D5C21B97B964506881CFCF0743D75 /* Pods-XiaoDeKitTests.modulemap */,
+				9C8C477C75D08F059FF009ADF9355903 /* Pods-XiaoDeKitTests-acknowledgements.markdown */,
+				363FBCD4E6689F1F9FB3259D9F92ED6C /* Pods-XiaoDeKitTests-acknowledgements.plist */,
+				19BC488437C2E714806BFB2620CD1707 /* Pods-XiaoDeKitTests-dummy.m */,
+				3BEBC810C49014CDEB03DBA57905B429 /* Pods-XiaoDeKitTests-Info.plist */,
+				BE4B670C7D6D47819904735457B19367 /* Pods-XiaoDeKitTests-umbrella.h */,
+				5185E718C7CEAB52038C7FE2EFB008FE /* Pods-XiaoDeKitTests.debug.xcconfig */,
+				ED0CEC6A92A7E705B37B1F20C1311553 /* Pods-XiaoDeKitTests.release.xcconfig */,
+			);
+			name = "Pods-XiaoDeKitTests";
+			path = "Target Support Files/Pods-XiaoDeKitTests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0F7AB45D3255D344C040BC9445800B46 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D6F82E22B4570B140A9A43208B037F70 /* Products */,
+				249F7B943A40E1890DB5784C4DE37D16 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4B51CC84585A13FA3E522227837D226 /* XiaoDeKit-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				163BC12C58DC3F805B319DF368AE11B1 /* Extension */,
+				8CACB8209D9D8697FE8C7A38D9A3C655 /* Pod */,
+				64770E55D2398A9BAD7274B8FBF30855 /* Support Files */,
+				7BC4BB4753A95784A5EA18D15BCE0DAE /* XDPackageTimer */,
+			);
+			name = "XiaoDeKit-Swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D6F82E22B4570B140A9A43208B037F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5397821849E0E119EFCF95A9D271961E /* Pods_XiaoDeKit_Example.framework */,
+				172527C8D437E0AC6358FC832BA20D2B /* Pods_XiaoDeKitTests.framework */,
+				371BDD880B9FD8B188ECC8246DFE2589 /* XiaoDeKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53E830637C4488F4563FCB06F6C4C27C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DB021039CC6EEBFE6771AB10CC3539 /* XiaoDeKit-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E6B1A5EBBE42CD553A97ABE8B8D2910 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBF4BC2063D0D37B8DF48A557958390 /* Pods-XiaoDeKit-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF2AB50E62C4D2902A4F5A84D034FD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B5B4FF1A0F1219A24E69E140276F09 /* Pods-XiaoDeKitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00642C9C38E35D9BBB854B029962B282 /* XiaoDeKit-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D865D9FA42CF254A760CF26D5D45D9F6 /* Build configuration list for PBXNativeTarget "XiaoDeKit-Swift" */;
+			buildPhases = (
+				53E830637C4488F4563FCB06F6C4C27C /* Headers */,
+				61E4CE03EB30213B067185BCDDE441E4 /* Sources */,
+				D6479A6975D8FE3B2BD7638444613F59 /* Frameworks */,
+				CEDDF056D3C8A8BD11FB49C8098DA276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XiaoDeKit-Swift";
+			productName = "XiaoDeKit-Swift";
+			productReference = 371BDD880B9FD8B188ECC8246DFE2589 /* XiaoDeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5205B1FA3EE18F8CF33D9C70A62B938C /* Pods-XiaoDeKit-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CFD10A061BF186BE6D8A46728578AF /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKit-Example" */;
+			buildPhases = (
+				5E6B1A5EBBE42CD553A97ABE8B8D2910 /* Headers */,
+				2676E2BD7A20B5F178B23144A76FDC61 /* Sources */,
+				B1061B7AA8F5F5521CC64E11156E4415 /* Frameworks */,
+				2F07BFBA4127B0088F95875F0EC6F4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30AF528508D4664299974AC656860FAF /* PBXTargetDependency */,
+			);
+			name = "Pods-XiaoDeKit-Example";
+			productName = "Pods-XiaoDeKit-Example";
+			productReference = 5397821849E0E119EFCF95A9D271961E /* Pods_XiaoDeKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7B49FFB68046BAA23855436629E98A8 /* Pods-XiaoDeKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B758754C223AFF63AEE7A56587DBAA7D /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKitTests" */;
+			buildPhases = (
+				7AF2AB50E62C4D2902A4F5A84D034FD3 /* Headers */,
+				EC61C986E84B3DFED4BC4F7ADBFD924B /* Sources */,
+				348D502081C7377578A51BB54AC2619B /* Frameworks */,
+				C597D6523723B45057F78BDDC98F1C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614B4E6CAC850A520683CEAF3452A2C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-XiaoDeKitTests";
+			productName = "Pods-XiaoDeKitTests";
+			productReference = 172527C8D437E0AC6358FC832BA20D2B /* Pods_XiaoDeKitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D6F82E22B4570B140A9A43208B037F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5205B1FA3EE18F8CF33D9C70A62B938C /* Pods-XiaoDeKit-Example */,
+				F7B49FFB68046BAA23855436629E98A8 /* Pods-XiaoDeKitTests */,
+				00642C9C38E35D9BBB854B029962B282 /* XiaoDeKit-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F07BFBA4127B0088F95875F0EC6F4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C597D6523723B45057F78BDDC98F1C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDDF056D3C8A8BD11FB49C8098DA276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2676E2BD7A20B5F178B23144A76FDC61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C1BACFD336981529D63E67A1ED83FE /* Pods-XiaoDeKit-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E4CE03EB30213B067185BCDDE441E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1EA07C3ACCBB7A00A739F7E0011BEC /* CGFloat+Extension.swift in Sources */,
+				C4396B1404869C5F5074ECE5F86687CE /* Date+Extension.swift in Sources */,
+				1CB52FA99A4BD277543A989DA789D724 /* Double+Extension.swift in Sources */,
+				587CC0ECC930AD7DDDB71EF60EEE76BC /* FileManager+Extension.swift in Sources */,
+				631F798861D1B5AD011F621B461EF6ED /* NSAttributedString+Extension.swift in Sources */,
+				5EBE3C366C88F361CC4453A461BF8FC7 /* NSMutableAttributedString+Extension.swift in Sources */,
+				D6667763A53FA5DF2E30A61FAFA392B0 /* String+Extension.swift in Sources */,
+				70A37078E1886175D93257400AA2C1AE /* String+Regular.swift in Sources */,
+				4C86A82F23D6BAB41071AEA41E5D711A /* Timer+Extension.swift in Sources */,
+				D8C3885DCF784CFC45BEC3851BFFE21A /* UIButton+Extension.swift in Sources */,
+				06E1BA4CEE37E85234E28F1EF9B5E431 /* UIColor+Extension.swift in Sources */,
+				9B763DB1E5F802BE577DF0507B32395A /* UIDevice+Extension.swift in Sources */,
+				9CB9AAAE473A343D5FC012ABEF86A21D /* UIImage+Extension.swift in Sources */,
+				D72859CC469B0495DA2758D5B621299C /* UILabel+Extension.swift in Sources */,
+				DFAC18EEC1BDDE5B10326018A070748E /* UINavigationController+Extension.swift in Sources */,
+				2DA88FBD7DC5779DB0B539B25888CB79 /* UITabBar+Extension.swift in Sources */,
+				F70F7AB153B9CC583C8512C0444268CE /* UITextField+Extension.swift in Sources */,
+				42C86FBD178A8E3F195BF3121ED18A42 /* UIViewController+Extension.swift in Sources */,
+				2284D958C0CD8AD3B51C1AF61D95DC57 /* UIViewController+UMExtension.swift in Sources */,
+				D3C967AD2B1061FD4F1B31FB52B82F5F /* XDPackageTimer.swift in Sources */,
+				F3E0E34AD9A0357A2A47160B0BC2B500 /* XiaoDeKit-Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC61C986E84B3DFED4BC4F7ADBFD924B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999EA7B78766BD2A26403FD3112F9063 /* Pods-XiaoDeKitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30AF528508D4664299974AC656860FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XiaoDeKit-Swift";
+			target = 00642C9C38E35D9BBB854B029962B282 /* XiaoDeKit-Swift */;
+			targetProxy = 6E0D6BE792F7335B7358EB0E417FD3EA /* PBXContainerItemProxy */;
+		};
+		614B4E6CAC850A520683CEAF3452A2C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XiaoDeKit-Example";
+			target = 5205B1FA3EE18F8CF33D9C70A62B938C /* Pods-XiaoDeKit-Example */;
+			targetProxy = 803836F27459F55CF9732714E1B3FD02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A0A80751CEFED4CFBA4A21D0F0355FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B49802373735E3F6121C3C16E0F731 /* XiaoDeKit-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift.modulemap";
+				PRODUCT_MODULE_NAME = XiaoDeKit;
+				PRODUCT_NAME = XiaoDeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5D64BAE1E3A5AA04C032135E37883193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0CEC6A92A7E705B37B1F20C1311553 /* Pods-XiaoDeKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XiaoDeKitTests/Pods-XiaoDeKitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XiaoDeKitTests/Pods-XiaoDeKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		611761F0835E869264C8EB23BB7C48FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5185E718C7CEAB52038C7FE2EFB008FE /* Pods-XiaoDeKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XiaoDeKitTests/Pods-XiaoDeKitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XiaoDeKitTests/Pods-XiaoDeKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		902045C7CC09BEF3ED745CF4C7BAF20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B49802373735E3F6121C3C16E0F731 /* XiaoDeKit-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift.modulemap";
+				PRODUCT_MODULE_NAME = XiaoDeKit;
+				PRODUCT_NAME = XiaoDeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6D4A564EE63340E4855E98566EE9E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE827DFD53C35B8C1A2D4BD27113BB5 /* Pods-XiaoDeKit-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3356A98B5F738AB1E4D44ADAC5C5F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840B21F5B1A975FDC2F4E34EAB29BBFF /* Pods-XiaoDeKit-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CFD10A061BF186BE6D8A46728578AF /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKit-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D4A564EE63340E4855E98566EE9E6D /* Debug */,
+				F3356A98B5F738AB1E4D44ADAC5C5F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B758754C223AFF63AEE7A56587DBAA7D /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611761F0835E869264C8EB23BB7C48FC /* Debug */,
+				5D64BAE1E3A5AA04C032135E37883193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D865D9FA42CF254A760CF26D5D45D9F6 /* Build configuration list for PBXNativeTarget "XiaoDeKit-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902045C7CC09BEF3ED745CF4C7BAF20C /* Debug */,
+				1A0A80751CEFED4CFBA4A21D0F0355FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

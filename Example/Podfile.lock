@@ -1,0 +1,20 @@
+PODS:
+  - XiaoDeKit-Swift (0.0.10):
+    - XiaoDeKit-Swift/Extension (= 0.0.10)
+    - XiaoDeKit-Swift/XDPackageTimer (= 0.0.10)
+  - XiaoDeKit-Swift/Extension (0.0.10)
+  - XiaoDeKit-Swift/XDPackageTimer (0.0.10)
+
+DEPENDENCIES:
+  - XiaoDeKit-Swift (from `../`)
+
+EXTERNAL SOURCES:
+  XiaoDeKit-Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XiaoDeKit-Swift: f40bb2d6616996899a77eeb3ef58a05cfc76785e
+
+PODFILE CHECKSUM: 08195150e19b9067a7a870560f29f529780fc32e
+
+COCOAPODS: 1.6.2

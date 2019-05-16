@@ -1,0 +1,6 @@
+framework module XiaoDeKit {
+  umbrella header "XiaoDeKit-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

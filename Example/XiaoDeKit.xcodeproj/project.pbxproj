@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046C58085CF573875771AE33 /* Pods_XiaoDeKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E1FD4675B139747C5F0A8F /* Pods_XiaoDeKitTests.framework */; };
+		5348F245228D89AA009CB7C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348F244228D89AA009CB7C6 /* AppDelegate.swift */; };
+		5348F247228D89AA009CB7C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348F246228D89AA009CB7C6 /* ViewController.swift */; };
+		5348F24A228D89AA009CB7C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5348F248228D89AA009CB7C6 /* Main.storyboard */; };
+		5348F24C228D89AA009CB7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5348F24B228D89AA009CB7C6 /* Assets.xcassets */; };
+		5348F24F228D89AA009CB7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5348F24D228D89AA009CB7C6 /* LaunchScreen.storyboard */; };
+		5348F25A228D89AB009CB7C6 /* XiaoDeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348F259228D89AB009CB7C6 /* XiaoDeKitTests.swift */; };
+		5348F265228D89AB009CB7C6 /* XiaoDeKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348F264228D89AB009CB7C6 /* XiaoDeKitUITests.swift */; };
+		91FFBF98BBD40DC6F97BA94D /* Pods_XiaoDeKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F272C1059FF42F428E4A5DE /* Pods_XiaoDeKit_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5348F256228D89AB009CB7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5348F239228D89AA009CB7C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5348F240228D89AA009CB7C6;
+			remoteInfo = XiaoDeKit;
+		};
+		5348F261228D89AB009CB7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5348F239228D89AA009CB7C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5348F240228D89AA009CB7C6;
+			remoteInfo = XiaoDeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15EA5F236881E73584A82E1B /* Pods-XiaoDeKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoDeKitTests.release.xcconfig"; path = "Target Support Files/Pods-XiaoDeKitTests/Pods-XiaoDeKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		32E1FD4675B139747C5F0A8F /* Pods_XiaoDeKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoDeKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F272C1059FF42F428E4A5DE /* Pods_XiaoDeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoDeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5348F241228D89AA009CB7C6 /* XiaoDeKit-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XiaoDeKit-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5348F244228D89AA009CB7C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5348F246228D89AA009CB7C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5348F249228D89AA009CB7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5348F24B228D89AA009CB7C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5348F24E228D89AA009CB7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5348F250228D89AA009CB7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5348F255228D89AB009CB7C6 /* XiaoDeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoDeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5348F259228D89AB009CB7C6 /* XiaoDeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaoDeKitTests.swift; sourceTree = "<group>"; };
+		5348F25B228D89AB009CB7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5348F260228D89AB009CB7C6 /* XiaoDeKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoDeKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5348F264228D89AB009CB7C6 /* XiaoDeKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaoDeKitUITests.swift; sourceTree = "<group>"; };
+		5348F266228D89AB009CB7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707F36F25072AB927315B50D /* Pods-XiaoDeKit-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoDeKit-Example.release.xcconfig"; path = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example.release.xcconfig"; sourceTree = "<group>"; };
+		AE00C30B7F1736CB30880925 /* Pods-XiaoDeKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoDeKitTests.debug.xcconfig"; path = "Target Support Files/Pods-XiaoDeKitTests/Pods-XiaoDeKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E36248754178099BEEAA289B /* Pods-XiaoDeKit-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoDeKit-Example.debug.xcconfig"; path = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5348F23E228D89AA009CB7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FFBF98BBD40DC6F97BA94D /* Pods_XiaoDeKit_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5348F252228D89AB009CB7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C58085CF573875771AE33 /* Pods_XiaoDeKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5348F25D228D89AB009CB7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5348F238228D89AA009CB7C6 = {
+			isa = PBXGroup;
+			children = (
+				5348F243228D89AA009CB7C6 /* XiaoDeKit */,
+				5348F258228D89AB009CB7C6 /* XiaoDeKitTests */,
+				5348F263228D89AB009CB7C6 /* XiaoDeKitUITests */,
+				5348F242228D89AA009CB7C6 /* Products */,
+				EC7E9D3F04866935CA7C8579 /* Pods */,
+				649AE38B521353EBFE8A5989 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5348F242228D89AA009CB7C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5348F241228D89AA009CB7C6 /* XiaoDeKit-Example.app */,
+				5348F255228D89AB009CB7C6 /* XiaoDeKitTests.xctest */,
+				5348F260228D89AB009CB7C6 /* XiaoDeKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5348F243228D89AA009CB7C6 /* XiaoDeKit */ = {
+			isa = PBXGroup;
+			children = (
+				5348F244228D89AA009CB7C6 /* AppDelegate.swift */,
+				5348F246228D89AA009CB7C6 /* ViewController.swift */,
+				5348F248228D89AA009CB7C6 /* Main.storyboard */,
+				5348F24B228D89AA009CB7C6 /* Assets.xcassets */,
+				5348F24D228D89AA009CB7C6 /* LaunchScreen.storyboard */,
+				5348F250228D89AA009CB7C6 /* Info.plist */,
+			);
+			path = XiaoDeKit;
+			sourceTree = "<group>";
+		};
+		5348F258228D89AB009CB7C6 /* XiaoDeKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5348F259228D89AB009CB7C6 /* XiaoDeKitTests.swift */,
+				5348F25B228D89AB009CB7C6 /* Info.plist */,
+			);
+			path = XiaoDeKitTests;
+			sourceTree = "<group>";
+		};
+		5348F263228D89AB009CB7C6 /* XiaoDeKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5348F264228D89AB009CB7C6 /* XiaoDeKitUITests.swift */,
+				5348F266228D89AB009CB7C6 /* Info.plist */,
+			);
+			path = XiaoDeKitUITests;
+			sourceTree = "<group>";
+		};
+		649AE38B521353EBFE8A5989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F272C1059FF42F428E4A5DE /* Pods_XiaoDeKit_Example.framework */,
+				32E1FD4675B139747C5F0A8F /* Pods_XiaoDeKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC7E9D3F04866935CA7C8579 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E36248754178099BEEAA289B /* Pods-XiaoDeKit-Example.debug.xcconfig */,
+				707F36F25072AB927315B50D /* Pods-XiaoDeKit-Example.release.xcconfig */,
+				AE00C30B7F1736CB30880925 /* Pods-XiaoDeKitTests.debug.xcconfig */,
+				15EA5F236881E73584A82E1B /* Pods-XiaoDeKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5348F240228D89AA009CB7C6 /* XiaoDeKit-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5348F269228D89AB009CB7C6 /* Build configuration list for PBXNativeTarget "XiaoDeKit-Example" */;
+			buildPhases = (
+				87CEC8CBD4F6E0D82FF3CDC6 /* [CP] Check Pods Manifest.lock */,
+				5348F23D228D89AA009CB7C6 /* Sources */,
+				5348F23E228D89AA009CB7C6 /* Frameworks */,
+				5348F23F228D89AA009CB7C6 /* Resources */,
+				B2EB585BE892CF87894FE985 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XiaoDeKit-Example";
+			productName = XiaoDeKit;
+			productReference = 5348F241228D89AA009CB7C6 /* XiaoDeKit-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5348F254228D89AB009CB7C6 /* XiaoDeKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5348F26C228D89AB009CB7C6 /* Build configuration list for PBXNativeTarget "XiaoDeKitTests" */;
+			buildPhases = (
+				73A70393AEB931D166FF13ED /* [CP] Check Pods Manifest.lock */,
+				5348F251228D89AB009CB7C6 /* Sources */,
+				5348F252228D89AB009CB7C6 /* Frameworks */,
+				5348F253228D89AB009CB7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5348F257228D89AB009CB7C6 /* PBXTargetDependency */,
+			);
+			name = XiaoDeKitTests;
+			productName = XiaoDeKitTests;
+			productReference = 5348F255228D89AB009CB7C6 /* XiaoDeKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5348F25F228D89AB009CB7C6 /* XiaoDeKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5348F26F228D89AB009CB7C6 /* Build configuration list for PBXNativeTarget "XiaoDeKitUITests" */;
+			buildPhases = (
+				5348F25C228D89AB009CB7C6 /* Sources */,
+				5348F25D228D89AB009CB7C6 /* Frameworks */,
+				5348F25E228D89AB009CB7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5348F262228D89AB009CB7C6 /* PBXTargetDependency */,
+			);
+			name = XiaoDeKitUITests;
+			productName = XiaoDeKitUITests;
+			productReference = 5348F260228D89AB009CB7C6 /* XiaoDeKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5348F239228D89AA009CB7C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = TangXiaoDe;
+				TargetAttributes = {
+					5348F240228D89AA009CB7C6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					5348F254228D89AB009CB7C6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5348F240228D89AA009CB7C6;
+					};
+					5348F25F228D89AB009CB7C6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5348F240228D89AA009CB7C6;
+					};
+				};
+			};
+			buildConfigurationList = 5348F23C228D89AA009CB7C6 /* Build configuration list for PBXProject "XiaoDeKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5348F238228D89AA009CB7C6;
+			productRefGroup = 5348F242228D89AA009CB7C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5348F240228D89AA009CB7C6 /* XiaoDeKit-Example */,
+				5348F254228D89AB009CB7C6 /* XiaoDeKitTests */,
+				5348F25F228D89AB009CB7C6 /* XiaoDeKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5348F23F228D89AA009CB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5348F24F228D89AA009CB7C6 /* LaunchScreen.storyboard in Resources */,
+				5348F24C228D89AA009CB7C6 /* Assets.xcassets in Resources */,
+				5348F24A228D89AA009CB7C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5348F253228D89AB009CB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5348F25E228D89AB009CB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73A70393AEB931D166FF13ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XiaoDeKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87CEC8CBD4F6E0D82FF3CDC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XiaoDeKit-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2EB585BE892CF87894FE985 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XiaoDeKit-Swift/XiaoDeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XiaoDeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5348F23D228D89AA009CB7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5348F247228D89AA009CB7C6 /* ViewController.swift in Sources */,
+				5348F245228D89AA009CB7C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5348F251228D89AB009CB7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5348F25A228D89AB009CB7C6 /* XiaoDeKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5348F25C228D89AB009CB7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5348F265228D89AB009CB7C6 /* XiaoDeKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5348F257228D89AB009CB7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5348F240228D89AA009CB7C6 /* XiaoDeKit-Example */;
+			targetProxy = 5348F256228D89AB009CB7C6 /* PBXContainerItemProxy */;
+		};
+		5348F262228D89AB009CB7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5348F240228D89AA009CB7C6 /* XiaoDeKit-Example */;
+			targetProxy = 5348F261228D89AB009CB7C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5348F248228D89AA009CB7C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5348F249228D89AA009CB7C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5348F24D228D89AA009CB7C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5348F24E228D89AA009CB7C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5348F267228D89AB009CB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5348F268228D89AB009CB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5348F26A228D89AB009CB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36248754178099BEEAA289B /* Pods-XiaoDeKit-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaoDeKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.XiaoDeKit-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5348F26B228D89AB009CB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707F36F25072AB927315B50D /* Pods-XiaoDeKit-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaoDeKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.XiaoDeKit-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5348F26D228D89AB009CB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE00C30B7F1736CB30880925 /* Pods-XiaoDeKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XiaoDeKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.XiaoDeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XiaoDeKit-Example.app/XiaoDeKit-Example";
+			};
+			name = Debug;
+		};
+		5348F26E228D89AB009CB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EA5F236881E73584A82E1B /* Pods-XiaoDeKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XiaoDeKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.XiaoDeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XiaoDeKit-Example.app/XiaoDeKit-Example";
+			};
+			name = Release;
+		};
+		5348F270228D89AB009CB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaoDeKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.XiaoDeKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XiaoDeKit;
+			};
+			name = Debug;
+		};
+		5348F271228D89AB009CB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaoDeKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.XiaoDeKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XiaoDeKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5348F23C228D89AA009CB7C6 /* Build configuration list for PBXProject "XiaoDeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5348F267228D89AB009CB7C6 /* Debug */,
+				5348F268228D89AB009CB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5348F269228D89AB009CB7C6 /* Build configuration list for PBXNativeTarget "XiaoDeKit-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5348F26A228D89AB009CB7C6 /* Debug */,
+				5348F26B228D89AB009CB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5348F26C228D89AB009CB7C6 /* Build configuration list for PBXNativeTarget "XiaoDeKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5348F26D228D89AB009CB7C6 /* Debug */,
+				5348F26E228D89AB009CB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5348F26F228D89AB009CB7C6 /* Build configuration list for PBXNativeTarget "XiaoDeKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5348F270228D89AB009CB7C6 /* Debug */,
+				5348F271228D89AB009CB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5348F239228D89AA009CB7C6 /* Project object */;
+}
