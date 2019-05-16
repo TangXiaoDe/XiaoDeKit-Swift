@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "XiaoDeKit-Swift"
   spec.version      = "0.0.4"
   spec.summary      = "XiaoDeKit written by TangXiaoDe in Swift"
+  spec.module_name   = 'XiaoDeKit'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -91,21 +92,21 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  #spec.exclude_files = "Classes/Exclude"
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.source_files  = "Pod/Classes", "Pod/Classes/**/*.{h,m,swift}"
+  #spec.exclude_files = "Pod/Classes/Exclude"
+  #spec.public_header_files = "Pod/Classes/**/*.h"
 
   # - SubModule
 
-  spec.subspec 'XDPackageTimer' do |packageTimer|
-    packageTimer.source_files = 'Pod/Classes/XDPackageTimer/**/*'
-  #  packageTimer.public_header_files = 'Pod/Classes/XDPackageTimer/**/*.h'
-  end
+#  spec.subspec 'XDPackageTimer' do |packageTimer|
+#    packageTimer.source_files = 'Pod/Classes/XDPackageTimer/**/*'
+#  #  packageTimer.public_header_files = 'Pod/Classes/XDPackageTimer/**/*.h'
+#  end
 
-  spec.subspec 'XDHelper' do |helper|
-    helper.source_files = 'Pod/Classes/XDHelper/**/*'
-  #  helper.public_header_files = 'Pod/Classes/XDHelper/**/*.h'
-  end
+#  spec.subspec 'XDHelper' do |helper|
+#    helper.source_files = 'Pod/Classes/XDHelper/**/*'
+#  #  helper.public_header_files = 'Pod/Classes/XDHelper/**/*.h'
+#  end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,7 +119,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
-  # spec.resources = "Pod/Resources/**/*.{png,xib,bundle,xcassets}"
+#  spec.resources = "Pod/Resources/**/*.{png,xib,bundle,xcassets}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
