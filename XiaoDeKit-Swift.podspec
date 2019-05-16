@@ -2,13 +2,13 @@ Pod::Spec.new do |spec|
 
   spec.name = 'XiaoDeKit-Swift'
   spec.module_name   = 'XiaoDeKit'
-  spec.version = '0.0.11'
+  spec.version = '0.0.10'
   spec.summary = 'the kit for package written by TangXiaoDe in swift'
 
   spec.license = 'MIT'
   spec.homepage = 'https://github.com/TangXiaoDe/XiaoDeKit-Swift.git'
   spec.authors = { 'TangXiaoDe' => 'xiaodehappy@foxmail.com' }
-  spec.source = { :git => 'https://github.com/TangXiaoDe/XiaoDeKit-Swift.git', :tag => '#{spec.version}' }
+  spec.source = { :git => 'https://github.com/TangXiaoDe/XiaoDeKit-Swift.git', :tag => '0.0.10' }
 
   spec.platform     = :ios, "9.0"
 

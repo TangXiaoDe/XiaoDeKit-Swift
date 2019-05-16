@@ -1,9 +1,9 @@
 PODS:
-  - XiaoDeKit-Swift (0.0.11):
-    - XiaoDeKit-Swift/Extension (= 0.0.11)
-    - XiaoDeKit-Swift/XDPackageTimer (= 0.0.11)
-  - XiaoDeKit-Swift/Extension (0.0.11)
-  - XiaoDeKit-Swift/XDPackageTimer (0.0.11)
+  - XiaoDeKit-Swift (0.0.10):
+    - XiaoDeKit-Swift/Extension (= 0.0.10)
+    - XiaoDeKit-Swift/XDPackageTimer (= 0.0.10)
+  - XiaoDeKit-Swift/Extension (0.0.10)
+  - XiaoDeKit-Swift/XDPackageTimer (0.0.10)
 
 DEPENDENCIES:
   - XiaoDeKit-Swift (from `../`)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XiaoDeKit-Swift: d5eee047370e856c50d362afe479c51b9c08ca36
+  XiaoDeKit-Swift: 507b8f2acf6da4c8c753bfb6b074aa49eab7df41
 
 PODFILE CHECKSUM: 08195150e19b9067a7a870560f29f529780fc32e
 
