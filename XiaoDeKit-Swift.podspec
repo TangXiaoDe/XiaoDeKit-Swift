@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XiaoDeKit-Swift"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "XiaoDeKit written by TangXiaoDe in Swift"
   spec.module_name   = 'XiaoDeKit'
 
