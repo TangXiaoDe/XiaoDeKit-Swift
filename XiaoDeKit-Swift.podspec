@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = 'XiaoDeKit-Swift'
-  spec.module_name   = 'XiaoDeKit'
+  spec.module_name = 'XiaoDeKit'
   spec.version = '0.0.10'
   spec.summary = 'the kit for package written by TangXiaoDe in swift'
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.authors = { 'TangXiaoDe' => 'xiaodehappy@foxmail.com' }
   spec.source = { :git => 'https://github.com/TangXiaoDe/XiaoDeKit-Swift.git', :tag => '0.0.10' }
 
-  spec.platform     = :ios, "9.0"
+  spec.platform = :ios, "9.0"
 
   spec.subspec "Extension" do |extension|
     extension.source_files = 'XiaoDeKit/Classes/Extension/Foundation+Extension/**/*', 'XiaoDeKit/Classes/Extension/UIKit+Extension/**/*'
