@@ -2,7 +2,7 @@
   "name": "XiaoDeKit-Swift",
   "module_name": "XiaoDeKit",
   "version": "0.0.10",
-  "summary": "the kit for package written by TangXiaoDe in swift",
+  "summary": "the kit for common packaging written by TangXiaoDe in swift",
   "license": "MIT",
   "homepage": "https://github.com/TangXiaoDe/XiaoDeKit-Swift.git",
   "authors": {
@@ -15,18 +15,71 @@
   "platforms": {
     "ios": "9.0"
   },
-  "swift_version": "5.0",
+  "swift_versions": "5.0",
   "subspecs": [
     {
       "name": "Extension",
       "source_files": [
-        "XiaoDeKit/Classes/Extension/Foundation+Extension/**/*",
-        "XiaoDeKit/Classes/Extension/UIKit+Extension/**/*"
+        "XiaoDeKit/Source/Extension/Foundation+Extension/**/*",
+        "XiaoDeKit/Source/Extension/UIKit+Extension/**/*"
       ]
     },
     {
+      "name": "Constant",
+      "source_files": "XiaoDeKit/Source/Constant/**/*",
+      "dependencies": {
+        "XiaoDeKit-Swift/Extension": [
+
+        ]
+      }
+    },
+    {
+      "name": "Common",
+      "source_files": "XiaoDeKit/Source/Common/View/**/*",
+      "dependencies": {
+        "XiaoDeKit-Swift/Extension": [
+
+        ],
+        "XiaoDeKit-Swift/Constant": [
+
+        ]
+      }
+    },
+    {
       "name": "XDPackageTimer",
-      "source_files": "XiaoDeKit/Classes/XDPackageTimer/**/*"
+      "source_files": "XiaoDeKit/Source/XDPackageTimer/**/*"
+    },
+    {
+      "name": "XDNestView",
+      "source_files": "XiaoDeKit/Source/XDNestView/**/*"
+    },
+    {
+      "name": "Helper",
+      "source_files": "XiaoDeKit/Source/Helper/**/*",
+      "dependencies": {
+        "XiaoDeKit-Swift/Extension": [
+
+        ]
+      }
+    },
+    {
+      "name": "XDWeb",
+      "source_files": "XiaoDeKit/Source/XDWeb/**/*"
+    },
+    {
+      "name": "Template",
+      "source_files": [
+        "XiaoDeKit/Source/Template/Controller/**/*",
+        "XiaoDeKit/Source/Template/View/**/*",
+        "XiaoDeKit/Source/Template/Vender/**/*",
+        "XiaoDeKit/Source/Template/Other/**/*"
+      ],
+      "dependencies": {
+        "XiaoDeKit-Swift/Constant": [
+
+        ]
+      }
     }
-  ]
+  ],
+  "swift_version": "5.0"
 }

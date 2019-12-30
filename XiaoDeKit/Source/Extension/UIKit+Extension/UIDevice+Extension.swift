@@ -72,9 +72,9 @@ public let kiPhoneXRScreenHeight: CGFloat = 896
 
 import UIKit
 
-public struct IPhoneScreen: CGSize {
-
-}
+//public struct IPhoneScreen: CGSize {
+//
+//}
 
 //public class IPhoneScreen
 //{

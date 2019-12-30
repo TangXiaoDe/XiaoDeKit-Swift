@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         //
         let _ = XiaoDeKit.UIColor.randomColor()
         // 
-        let _ = XDPackageTimer.init(target: self, selector: #selector(timered))
+//        let _ = XDPackageTimer.init(target: self, selector: #selector(timered))
         
         
         

@@ -1,6 +1,9 @@
 use_frameworks!
 
 target 'XiaoDeKit-Example' do
+  
+  source 'https://github.com/CocoaPods/Specs.git'
+
   pod 'XiaoDeKit-Swift', :path => '../'
 
   target 'XiaoDeKitTests' do

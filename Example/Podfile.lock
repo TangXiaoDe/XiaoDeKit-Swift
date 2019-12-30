@@ -1,9 +1,26 @@
 PODS:
   - XiaoDeKit-Swift (0.0.10):
+    - XiaoDeKit-Swift/Common (= 0.0.10)
+    - XiaoDeKit-Swift/Constant (= 0.0.10)
     - XiaoDeKit-Swift/Extension (= 0.0.10)
+    - XiaoDeKit-Swift/Helper (= 0.0.10)
+    - XiaoDeKit-Swift/Template (= 0.0.10)
+    - XiaoDeKit-Swift/XDNestView (= 0.0.10)
     - XiaoDeKit-Swift/XDPackageTimer (= 0.0.10)
+    - XiaoDeKit-Swift/XDWeb (= 0.0.10)
+  - XiaoDeKit-Swift/Common (0.0.10):
+    - XiaoDeKit-Swift/Constant
+    - XiaoDeKit-Swift/Extension
+  - XiaoDeKit-Swift/Constant (0.0.10):
+    - XiaoDeKit-Swift/Extension
   - XiaoDeKit-Swift/Extension (0.0.10)
+  - XiaoDeKit-Swift/Helper (0.0.10):
+    - XiaoDeKit-Swift/Extension
+  - XiaoDeKit-Swift/Template (0.0.10):
+    - XiaoDeKit-Swift/Constant
+  - XiaoDeKit-Swift/XDNestView (0.0.10)
   - XiaoDeKit-Swift/XDPackageTimer (0.0.10)
+  - XiaoDeKit-Swift/XDWeb (0.0.10)
 
 DEPENDENCIES:
   - XiaoDeKit-Swift (from `../`)
@@ -13,8 +30,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XiaoDeKit-Swift: 507b8f2acf6da4c8c753bfb6b074aa49eab7df41
+  XiaoDeKit-Swift: ff037984d3ff38e9ca5b248d63a29cf290106bab
 
-PODFILE CHECKSUM: 08195150e19b9067a7a870560f29f529780fc32e
+PODFILE CHECKSUM: d9eab3626385773d37f829399110f0598d5e718a
 
-COCOAPODS: 1.6.2
+COCOAPODS: 1.8.4

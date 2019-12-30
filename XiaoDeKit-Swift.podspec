@@ -13,19 +13,18 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, "9.0"
   spec.swift_version = '5.0'
 
-  # 子节点
+  
   spec.subspec "Extension" do |extension|
     extension.source_files = 'XiaoDeKit/Source/Extension/Foundation+Extension/**/*', 
     'XiaoDeKit/Source/Extension/UIKit+Extension/**/*'
   end
   spec.subspec "Constant" do |constant|
     constant.source_files = 'XiaoDeKit/Source/Constant/**/*'
-    constant.dependency 'XiaoDeKit-Swift/UIKitExtension'
+    constant.dependency 'XiaoDeKit-Swift/Extension'
   end
   spec.subspec "Common" do |common|
     common.source_files = 'XiaoDeKit/Source/Common/View/**/*'
-    common.dependency 'XiaoDeKit-Swift/FoundationExtension'
-    common.dependency 'XiaoDeKit-Swift/UIKitExtension'
+    common.dependency 'XiaoDeKit-Swift/Extension'
     common.dependency 'XiaoDeKit-Swift/Constant'
   end
   spec.subspec "XDPackageTimer" do |timer|
@@ -36,7 +35,7 @@ Pod::Spec.new do |spec|
   end
   spec.subspec "Helper" do |helper|
     helper.source_files = 'XiaoDeKit/Source/Helper/**/*'
-    helper.dependency 'XiaoDeKit-Swift/FoundationExtension'
+    helper.dependency 'XiaoDeKit-Swift/Extension'
   end
   spec.subspec "XDWeb" do |web|
     web.source_files = 'XiaoDeKit/Source/XDWeb/**/*'

@@ -7,260 +7,446 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06E1BA4CEE37E85234E28F1EF9B5E431 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8DA5BCEDE0ED598FEC19CB7A0F56A /* UIColor+Extension.swift */; };
-		1660491E18237F59DDAFCD056F43F4E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1CB52FA99A4BD277543A989DA789D724 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CCF5EEE566BD7D86E03B8E6A258470 /* Double+Extension.swift */; };
-		2284D958C0CD8AD3B51C1AF61D95DC57 /* UIViewController+UMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DB8E90E8771E9FCDE1C0CCFAE4E84 /* UIViewController+UMExtension.swift */; };
-		2DA88FBD7DC5779DB0B539B25888CB79 /* UITabBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6825C96EA3E54189F362ADB88DB9AFF8 /* UITabBar+Extension.swift */; };
-		42C86FBD178A8E3F195BF3121ED18A42 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383A9EF5F93B4E9313EE62C3570CC5C /* UIViewController+Extension.swift */; };
-		4A411F4FCB56F4FCED957C52766B6493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4C86A82F23D6BAB41071AEA41E5D711A /* Timer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBE81CD5775F43C2E254B36ED1502B2 /* Timer+Extension.swift */; };
-		587CC0ECC930AD7DDDB71EF60EEE76BC /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B85B8EB716DFC703A8E5D3BD5B12119 /* FileManager+Extension.swift */; };
-		5EBE3C366C88F361CC4453A461BF8FC7 /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F542897F8DF54DE9B0586597E408C1D /* NSMutableAttributedString+Extension.swift */; };
-		60B5B4FF1A0F1219A24E69E140276F09 /* Pods-XiaoDeKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4B670C7D6D47819904735457B19367 /* Pods-XiaoDeKitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		631F798861D1B5AD011F621B461EF6ED /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2676BEDDB53479A79480981EA6F0B63 /* NSAttributedString+Extension.swift */; };
-		6CBF4BC2063D0D37B8DF48A557958390 /* Pods-XiaoDeKit-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F74AD2AFC958A35FC5C3CEE80773BAD /* Pods-XiaoDeKit-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70A37078E1886175D93257400AA2C1AE /* String+Regular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BFACBD0AF1FC393AFCC56B5408E14 /* String+Regular.swift */; };
-		999EA7B78766BD2A26403FD3112F9063 /* Pods-XiaoDeKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BC488437C2E714806BFB2620CD1707 /* Pods-XiaoDeKitTests-dummy.m */; };
-		9B763DB1E5F802BE577DF0507B32395A /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7893403FF09CBF65B66CDB3D8F5FD64 /* UIDevice+Extension.swift */; };
-		9CB9AAAE473A343D5FC012ABEF86A21D /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BCDA7CFA115A5D0A543B370C52C62 /* UIImage+Extension.swift */; };
-		AEB83C83009DB19AFB03E992F4D3059F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C2C1BACFD336981529D63E67A1ED83FE /* Pods-XiaoDeKit-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B196E39D659D51522A183F40213E46 /* Pods-XiaoDeKit-Example-dummy.m */; };
-		C4396B1404869C5F5074ECE5F86687CE /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1058C739CFF23EB5D2A8AC4C05AA61 /* Date+Extension.swift */; };
-		C8DB021039CC6EEBFE6771AB10CC3539 /* XiaoDeKit-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAF6A669B35028892E6F9EDD00AD468 /* XiaoDeKit-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3C967AD2B1061FD4F1B31FB52B82F5F /* XDPackageTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227719A16D58B39350DD4277CFE460A4 /* XDPackageTimer.swift */; };
-		D6667763A53FA5DF2E30A61FAFA392B0 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283040099B7CB8249A261155075E032 /* String+Extension.swift */; };
-		D72859CC469B0495DA2758D5B621299C /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C53A01B1330498D3A1D67C49280951 /* UILabel+Extension.swift */; };
-		D8C3885DCF784CFC45BEC3851BFFE21A /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C5AA3559FD5EFF5FA01CCA2B630D64 /* UIButton+Extension.swift */; };
-		DFAC18EEC1BDDE5B10326018A070748E /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9875B7A958EDBDCE79C622D63DE2E4C /* UINavigationController+Extension.swift */; };
-		F3E0E34AD9A0357A2A47160B0BC2B500 /* XiaoDeKit-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AE1BFD9D9B1CD7A554151CD4244D8 /* XiaoDeKit-Swift-dummy.m */; };
-		F70F7AB153B9CC583C8512C0444268CE /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E13FEBAAEE45CA551AFD342AB7089C /* UITextField+Extension.swift */; };
-		FC1EA07C3ACCBB7A00A739F7E0011BEC /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04EF3BA5209FDD2083F2BB10F851293 /* CGFloat+Extension.swift */; };
+		0351DB988F8DA80D106212A25196CC2E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303D2DDD2CBE313F4F067B51C87F3BE2 /* Constant.swift */; };
+		060C8C95F996E7DA6FFA724CAE358DBA /* XDNestScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C700D3BFAADBCF643100B768DDF640E9 /* XDNestScrollView.swift */; };
+		0B2AFD27F627AFA065FB35A0F01981EB /* String+Regular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F2E314333C59EA188A2B957BE7313 /* String+Regular.swift */; };
+		0C226E036DF86FFAB4718A3CF60BE436 /* TemplateControllerHorScrollPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B569AAD888AA7BF0FCA80CB1213079 /* TemplateControllerHorScrollPage.swift */; };
+		167968FA8A87A93C821096E984FE93CE /* TemplateControllerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC123C2B41D5CAF091C68F399BFB6FE /* TemplateControllerTableView.swift */; };
+		1A4EB6510D273926D205A9584757F0C3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD3EF2A16E3B4F208C10F91D15860F /* String+Extension.swift */; };
+		24E53CC8078D8D692B464C0F7BD42905 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538144914DC603F9C6C5C3863493654 /* Date+Extension.swift */; };
+		294145AF030C3ED731D28872C8677B48 /* Pods-XiaoDeKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C732CE0505321C16800BA980FF269A /* Pods-XiaoDeKitTests-dummy.m */; };
+		310C695E87FA45CAD2F32D0A57454A37 /* TemplateControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D808887486B1E496B4A0601FB284EC /* TemplateControllerView.swift */; };
+		3194010E059F39B9190A7015096544FE /* TemplateTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F5367847CC9AA390F7ADFC51FFA4B /* TemplateTableHeaderView.swift */; };
+		3268023E37212DDA7FBB8441357A4A65 /* XiaoDeKit-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FA35E217C5A3D5DEF2074A857705EF /* XiaoDeKit-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC1AD848329702410C8CDE92059022E /* TemplateControllerWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F637F818222B7BC54FC32F0B48ACFB0 /* TemplateControllerWKWebView.swift */; };
+		4187D1DAEE9403A914101CAE8C6DE45D /* TemplateControllerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D10D19335345A5A570D702A3DD47A5 /* TemplateControllerCollectionView.swift */; };
+		420CB584E352656AD4D70415409B113A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193F1750C4EF7812DCC1049AE30A04C /* UIColor+Extension.swift */; };
+		4C28D4034ED0CF28076F33F74EF10808 /* TemplateWebViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4AA5358E153DC7290D75A638B0E0F /* TemplateWebViewSource.swift */; };
+		4DEFEDC5AA35C3DDCF375E472B03301E /* TextFieldHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726C17C5D0814687A78D020BE23C33E /* TextFieldHelper.swift */; };
+		4E81A46DF8C022166B357C8201F0239E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		502A710D415FDD037D95287E2624E5D3 /* TemplateAverageWidthTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C329EC2F271DA364647655BA43BAF45 /* TemplateAverageWidthTitleView.swift */; };
+		51EEF224B83E868188B4DE1E2E1EEC71 /* TemplateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043206FE8138FFDBA298859BE233DE22 /* TemplateListView.swift */; };
+		5457B3608B7BE2868E8E0C2848EB6A54 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70494C40AA4C50C1243AB91DB4DD7183 /* Double+Extension.swift */; };
+		5F4E61B235E90109B79C101ED2599A4D /* TemplateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8C4D677A3D8279A1624CFB77C49AB /* TemplateTableViewCell.swift */; };
+		650F448BC9FCC3AF28D3C8705194D91D /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E53A75E1359A8FE56C60B24CC2A09 /* UITextField+Extension.swift */; };
+		65ABE02E71FA239679101ECC0D70B351 /* XDPackageTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5BB74BCC28A1E141BDBA55F732D24 /* XDPackageTimer.swift */; };
+		6DB29A8BD36C790738BADCB5F418E2C3 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E9AE388F476B91365A2DE3E004BF24 /* UIViewController+Extension.swift */; };
+		6E1DCEE6941917790E315D654B733CFC /* TemplateControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31D8D9B44C9D4C25237E80EA50F6C1B /* TemplateControl.swift */; };
+		6E3D8ABB212944A293F898BECF3C8824 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A1E09BA985C627B78EBC2184BB6FB /* UIButton+Extension.swift */; };
+		70FC9BCC22555770F28A9A9E8546F3B2 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE83AFE4F64E982712956E8BD6479B /* UIImage+Extension.swift */; };
+		75BA362EAE78EC4CEE8B80BDBC3141D6 /* TemplateControllerTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B03650448D1B8C73A8AC9CD425352D /* TemplateControllerTabBar.swift */; };
+		769CBB8C47229BF0AF6C1CCC89BCB9FD /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2948A68BD820E2B0D787F5429E61D60 /* NSAttributedString+Extension.swift */; };
+		78302FA487E3D0B6EB4A87CC0DD88E07 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DBB9E443A2DF3F93F757EBAA2362DC /* UILabel+Extension.swift */; };
+		7B19E5AB53B48EAAA2D7883981DE163F /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A7E9C2B31897A0B05199F83B5081 /* StringHelper.swift */; };
+		7F11A4AC1700794C55246E6EEF0FEBA6 /* ChainOneHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E815B0C04A1504CB1420E7494683186 /* ChainOneHelper.swift */; };
+		814CFCB17D4C89D624168F49B097CF11 /* Pods-XiaoDeKit-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C2065CD14B4EED527010693905AF79 /* Pods-XiaoDeKit-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89F31407804C14B54F25E4B871308FD5 /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE6C5892F5FFE3AABE3E59B51764665 /* CGSize+Extension.swift */; };
+		8C2952420040E01C4C01D8B6AA3BC6E0 /* UIViewController+UMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF6B4CC57462D73393F119AC029EAA /* UIViewController+UMExtension.swift */; };
+		8CB885A814C0625916E3EFC7FCEF15E4 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7CCF2D991CEE8F16B3A55126B615F /* UINavigationController+Extension.swift */; };
+		8D025BA65F7E05EF735CDFB600EAB9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8DD1C5AE25D32B4B01D19BA018C8B5C7 /* TemplateCollectionHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF76667C611F0C908326EA4D0AE7C55C /* TemplateCollectionHeaderFooterView.swift */; };
+		905DD4D95336DA2B6E5F347E744489CD /* TemplateRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3BE0EE7B766D0ADCBA415493DF6D88 /* TemplateRealmModel.swift */; };
+		91777DBB472F86DA6606C5254D12B2E1 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430C7E7CF52AD2A106DA8E72E71ACC3 /* UIDevice+Extension.swift */; };
+		9B88F88EF3CCA787FCF0245E265EA963 /* TemplateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC8960398797A9321BFD9BBE85103A /* TemplateProtocol.swift */; };
+		9C95CDA630F76506DCB4742326D6F27D /* Pods-XiaoDeKit-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC8B4030B3977BC9364C06E13955FD /* Pods-XiaoDeKit-Example-dummy.m */; };
+		AF08AF377873B8C943F9D7A9929D073B /* TemplateMJRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A1463A1A1930CA526856FFFB2AF5F /* TemplateMJRefreshFooter.swift */; };
+		B0E90CE4BF39E35376595D4B1F9684F2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF642E76E82615AA0122E205771837D /* UIView+Extension.swift */; };
+		B12F2850CF611AB016D70F9A78F2DBA9 /* TemplateSingleInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E47236C2AEAAC13A5426E0E6151AB /* TemplateSingleInstance.swift */; };
+		B2E07D9D25711452AF6D14A9A66B114E /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D354B1BB2FF62AE07CB9EA828EA79804 /* UIImageView+Extension.swift */; };
+		B75B32306BD85F412C1F136A66AD4C18 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127BDFB98AA4F115E3D9E379989D5B50 /* TemplateView.swift */; };
+		B8F15A1C9CAA3848989DDF0AB0776002 /* XDWebViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0832D911606C92AEF8BBA11FA46A28F /* XDWebViewSource.swift */; };
+		BA920DC6210F70D41A5DD0306BA78F7A /* TemplateControllerPresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464BA5B6BE1E53DBF3FAF340DC3DA4C /* TemplateControllerPresented.swift */; };
+		BACB11A4404E1C4C172313749BA354F6 /* TemplateMapperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C775F273ABA0DD02ADD483922A6E2AF8 /* TemplateMapperModel.swift */; };
+		BBE36360D1CC1EA4D3C631B45483BC1E /* XiaoDeKit-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC231257E180E27F006BB91CAD4BA527 /* XiaoDeKit-Swift-dummy.m */; };
+		BDCBC1B3467FB5DB3C266F18A413603C /* XDNestScrollContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A954973D1F75507D9FCD417105B971CC /* XDNestScrollContainerView.swift */; };
+		C41EC6A0BDE4EE70B2A0EB50EA5FDF64 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0837F96324502B3D2E5FCECB7278F41 /* CGFloat+Extension.swift */; };
+		C743242C03C0A2A0BF0A73CD911B6B8E /* TemplateControllerMultiTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464291A04F4FA8599D4F7E6C51E30425 /* TemplateControllerMultiTitle.swift */; };
+		CD02F549DA7F50AE2483E881724C383B /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC47C3E58422C524E7B4E97D2E9850 /* NSMutableAttributedString+Extension.swift */; };
+		CD24080E72B2838E5F560A784CD78ACE /* TemplateMJRefreshTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDD74D45FA57F6A01D3B7FE1FE1E8E4 /* TemplateMJRefreshTableView.swift */; };
+		CE7C04019A8F8AAE27F64160FB785704 /* Timer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B491E8C62737D5A47647EC20F7D5275 /* Timer+Extension.swift */; };
+		D100ACEE5A4B8697489FC1FC4BB7B166 /* NoHighlightedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B6B76513D4ECDD544A012ED69C4B34 /* NoHighlightedButton.swift */; };
+		D2A04D45842AC2875AA6F203CC5FC2F9 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C62E64C39A55525437E99AB8638B13C /* FileManager+Extension.swift */; };
+		D3E112215B1EB760BD998EFE9172B2B6 /* TemplateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3954826A54930922B9671B7EF3E32F /* TemplateCollectionViewCell.swift */; };
+		D533B1CB259D847CE467F9CB857FCB96 /* TextViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D996BDFF1F219A5217B45927599BFF /* TextViewHelper.swift */; };
+		D68335B4E5E9104B89E7FA2E6B9FE960 /* TemplateTableHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D92E2B64B93AC1871104245911FF0C0 /* TemplateTableHeaderFooterView.swift */; };
+		E07515B086FC035BB4BFE4E18654600A /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CD961DE32BD42D0C8D2503909A1B9C /* String+Localizable.swift */; };
+		E89E150A59C0241EFBF86C3714192B79 /* UITabBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA78BD03F10F0F29E2FF620466559DD /* UITabBar+Extension.swift */; };
+		EFC1AF704912AF1DC3D40798C4F4CA14 /* TemplateMJRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78843858D6A83DB6F3A24DE8AE0377A /* TemplateMJRefreshHeader.swift */; };
+		EFFF359C29DECAD950B1EE56FC4D3F4C /* Pods-XiaoDeKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0096C0A7D06D959DC46A65BFF19351 /* Pods-XiaoDeKitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE62F4541554D626A2AEEF3E50B5444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6E0D6BE792F7335B7358EB0E417FD3EA /* PBXContainerItemProxy */ = {
+		2B36F786822613FFF9CF5968B82BA5AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00642C9C38E35D9BBB854B029962B282;
+			remoteGlobalIDString = 5966B4FE0CADBD67E3ACCBB41C6318EE;
 			remoteInfo = "XiaoDeKit-Swift";
 		};
-		803836F27459F55CF9732714E1B3FD02 /* PBXContainerItemProxy */ = {
+		7AC2D78C88F6997C41DCF45B357B73AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5205B1FA3EE18F8CF33D9C70A62B938C;
+			remoteGlobalIDString = 6C1EDD939AD8CC39B3AA3BFE1EE5B3C3;
 			remoteInfo = "Pods-XiaoDeKit-Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0473453AACD53EA952AA4B5BFFA43A19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		11850C4C6660B9F4F6FF97C832CC8D70 /* Pods-XiaoDeKit-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKit-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		125AAA3A5F89C10D993C1EBCB43F9C03 /* Pods-XiaoDeKit-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XiaoDeKit-Example.modulemap"; sourceTree = "<group>"; };
-		172527C8D437E0AC6358FC832BA20D2B /* Pods_XiaoDeKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XiaoDeKitTests.framework; path = "Pods-XiaoDeKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19BC488437C2E714806BFB2620CD1707 /* Pods-XiaoDeKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XiaoDeKitTests-dummy.m"; sourceTree = "<group>"; };
-		1AE827DFD53C35B8C1A2D4BD27113BB5 /* Pods-XiaoDeKit-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKit-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		227719A16D58B39350DD4277CFE460A4 /* XDPackageTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDPackageTimer.swift; path = XiaoDeKit/Classes/XDPackageTimer/XDPackageTimer.swift; sourceTree = "<group>"; };
-		29C53A01B1330498D3A1D67C49280951 /* UILabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
-		2B85B8EB716DFC703A8E5D3BD5B12119 /* FileManager+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
-		31B04DD42822BC5FD53ED28CBE7227B0 /* XiaoDeKit-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "XiaoDeKit-Swift.modulemap"; sourceTree = "<group>"; };
+		043206FE8138FFDBA298859BE233DE22 /* TemplateListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateListView.swift; sourceTree = "<group>"; };
+		057E53A75E1359A8FE56C60B24CC2A09 /* UITextField+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		06E9AE388F476B91365A2DE3E004BF24 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0824CEA67E582202D5C40D5EE987A889 /* Pods-XiaoDeKitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKitTests-Info.plist"; sourceTree = "<group>"; };
+		094F2E314333C59EA188A2B957BE7313 /* String+Regular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Regular.swift"; sourceTree = "<group>"; };
+		0DC5BB74BCC28A1E141BDBA55F732D24 /* XDPackageTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDPackageTimer.swift; path = XiaoDeKit/Source/XDPackageTimer/XDPackageTimer.swift; sourceTree = "<group>"; };
+		10D10D19335345A5A570D702A3DD47A5 /* TemplateControllerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateControllerCollectionView.swift; sourceTree = "<group>"; };
+		127BDFB98AA4F115E3D9E379989D5B50 /* TemplateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
+		22DC8B4030B3977BC9364C06E13955FD /* Pods-XiaoDeKit-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XiaoDeKit-Example-dummy.m"; sourceTree = "<group>"; };
+		28C732CE0505321C16800BA980FF269A /* Pods-XiaoDeKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XiaoDeKitTests-dummy.m"; sourceTree = "<group>"; };
+		2BFD3EF2A16E3B4F208C10F91D15860F /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		2EF94B406197598597CF5F317F516D66 /* Pods-XiaoDeKitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XiaoDeKitTests.modulemap"; sourceTree = "<group>"; };
+		303D2DDD2CBE313F4F067B51C87F3BE2 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = XiaoDeKit/Source/Constant/Constant.swift; sourceTree = "<group>"; };
+		318A1463A1A1930CA526856FFFB2AF5F /* TemplateMJRefreshFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateMJRefreshFooter.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3283040099B7CB8249A261155075E032 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		33E13FEBAAEE45CA551AFD342AB7089C /* UITextField+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
-		363FBCD4E6689F1F9FB3259D9F92ED6C /* Pods-XiaoDeKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		371BDD880B9FD8B188ECC8246DFE2589 /* XiaoDeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XiaoDeKit.framework; path = "XiaoDeKit-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BEBC810C49014CDEB03DBA57905B429 /* Pods-XiaoDeKitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKitTests-Info.plist"; sourceTree = "<group>"; };
-		3F74AD2AFC958A35FC5C3CEE80773BAD /* Pods-XiaoDeKit-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoDeKit-Example-umbrella.h"; sourceTree = "<group>"; };
-		5185E718C7CEAB52038C7FE2EFB008FE /* Pods-XiaoDeKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		51C5AA3559FD5EFF5FA01CCA2B630D64 /* UIButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
-		5397821849E0E119EFCF95A9D271961E /* Pods_XiaoDeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XiaoDeKit_Example.framework; path = "Pods-XiaoDeKit-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54F8DA5BCEDE0ED598FEC19CB7A0F56A /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		5B1058C739CFF23EB5D2A8AC4C05AA61 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
-		5B7AE1BFD9D9B1CD7A554151CD4244D8 /* XiaoDeKit-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XiaoDeKit-Swift-dummy.m"; sourceTree = "<group>"; };
-		651BFACBD0AF1FC393AFCC56B5408E14 /* String+Regular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Regular.swift"; sourceTree = "<group>"; };
-		652DB8E90E8771E9FCDE1C0CCFAE4E84 /* UIViewController+UMExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+UMExtension.swift"; sourceTree = "<group>"; };
-		6825C96EA3E54189F362ADB88DB9AFF8 /* UITabBar+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBar+Extension.swift"; sourceTree = "<group>"; };
-		68B49802373735E3F6121C3C16E0F731 /* XiaoDeKit-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "XiaoDeKit-Swift.xcconfig"; sourceTree = "<group>"; };
-		6F542897F8DF54DE9B0586597E408C1D /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
-		70B196E39D659D51522A183F40213E46 /* Pods-XiaoDeKit-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XiaoDeKit-Example-dummy.m"; sourceTree = "<group>"; };
-		7CAF6A669B35028892E6F9EDD00AD468 /* XiaoDeKit-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoDeKit-Swift-umbrella.h"; sourceTree = "<group>"; };
-		7DA60E5D85091B798B7A67999F5C9F1A /* Pods-XiaoDeKit-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKit-Example-Info.plist"; sourceTree = "<group>"; };
-		840B21F5B1A975FDC2F4E34EAB29BBFF /* Pods-XiaoDeKit-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKit-Example.release.xcconfig"; sourceTree = "<group>"; };
-		8563A1D4FAC3C079428AB989BDC2FF77 /* XiaoDeKit-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "XiaoDeKit-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		87EA940035B8B327C6A7A91B4E14A7D4 /* Pods-XiaoDeKit-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XiaoDeKit-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		92CCF5EEE566BD7D86E03B8E6A258470 /* Double+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
-		999C2821D23F2F889CBCE551FE6CCB64 /* Pods-XiaoDeKit-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XiaoDeKit-Example-frameworks.sh"; sourceTree = "<group>"; };
-		9C8C477C75D08F059FF009ADF9355903 /* Pods-XiaoDeKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XiaoDeKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E815B0C04A1504CB1420E7494683186 /* ChainOneHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChainOneHelper.swift; path = XiaoDeKit/Source/Helper/ChainOneHelper.swift; sourceTree = "<group>"; };
+		3FB776970662645B75A9928CA093ABEF /* Pods-XiaoDeKit-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKit-Example.release.xcconfig"; sourceTree = "<group>"; };
+		464291A04F4FA8599D4F7E6C51E30425 /* TemplateControllerMultiTitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateControllerMultiTitle.swift; sourceTree = "<group>"; };
+		47FF6B4CC57462D73393F119AC029EAA /* UIViewController+UMExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+UMExtension.swift"; sourceTree = "<group>"; };
+		4F0096C0A7D06D959DC46A65BFF19351 /* Pods-XiaoDeKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoDeKitTests-umbrella.h"; sourceTree = "<group>"; };
+		4F3133A4769E65B8810A1D9175BC3C31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		51B6B76513D4ECDD544A012ED69C4B34 /* NoHighlightedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoHighlightedButton.swift; path = XiaoDeKit/Source/Common/View/NoHighlightedButton.swift; sourceTree = "<group>"; };
+		5538144914DC603F9C6C5C3863493654 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		59B6B7DD6F210EEB436438FAA3527DAB /* XiaoDeKit-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XiaoDeKit-Swift-Info.plist"; sourceTree = "<group>"; };
+		59C7CCF2D991CEE8F16B3A55126B615F /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		5B1C1258B602865F0028A209319F4F03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5B491E8C62737D5A47647EC20F7D5275 /* Timer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Timer+Extension.swift"; sourceTree = "<group>"; };
+		5BEC8B84C885F0CDD4DDABF8F00650A9 /* Pods-XiaoDeKit-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XiaoDeKit-Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D92E2B64B93AC1871104245911FF0C0 /* TemplateTableHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateTableHeaderFooterView.swift; sourceTree = "<group>"; };
+		5F637F818222B7BC54FC32F0B48ACFB0 /* TemplateControllerWKWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateControllerWKWebView.swift; sourceTree = "<group>"; };
+		64C2065CD14B4EED527010693905AF79 /* Pods-XiaoDeKit-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoDeKit-Example-umbrella.h"; sourceTree = "<group>"; };
+		66D808887486B1E496B4A0601FB284EC /* TemplateControllerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateControllerView.swift; sourceTree = "<group>"; };
+		67029B2D3B004CD6641C1D462967182F /* Pods_XiaoDeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XiaoDeKit_Example.framework; path = "Pods-XiaoDeKit-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6726C17C5D0814687A78D020BE23C33E /* TextFieldHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldHelper.swift; path = XiaoDeKit/Source/Helper/TextFieldHelper.swift; sourceTree = "<group>"; };
+		6B6E6AFA841873D50F1668D63A91F67A /* Pods-XiaoDeKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C62E64C39A55525437E99AB8638B13C /* FileManager+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		70494C40AA4C50C1243AB91DB4DD7183 /* Double+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		74B569AAD888AA7BF0FCA80CB1213079 /* TemplateControllerHorScrollPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateControllerHorScrollPage.swift; sourceTree = "<group>"; };
+		767B44E05A60C853CEAB44651930520C /* Pods-XiaoDeKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AD8C4D677A3D8279A1624CFB77C49AB /* TemplateTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateTableViewCell.swift; sourceTree = "<group>"; };
+		7B2CDE3175118712CF759357B5722AB3 /* Pods-XiaoDeKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EF642E76E82615AA0122E205771837D /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		83DBB9E443A2DF3F93F757EBAA2362DC /* UILabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		83E4AA5358E153DC7290D75A638B0E0F /* TemplateWebViewSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateWebViewSource.swift; sourceTree = "<group>"; };
+		844EEFBF6CE9745ED9510D5973011519 /* XiaoDeKit-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "XiaoDeKit-Swift.modulemap"; sourceTree = "<group>"; };
+		8C329EC2F271DA364647655BA43BAF45 /* TemplateAverageWidthTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateAverageWidthTitleView.swift; sourceTree = "<group>"; };
+		9193F1750C4EF7812DCC1049AE30A04C /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		96FA35E217C5A3D5DEF2074A857705EF /* XiaoDeKit-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoDeKit-Swift-umbrella.h"; sourceTree = "<group>"; };
+		9A3BE0EE7B766D0ADCBA415493DF6D88 /* TemplateRealmModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateRealmModel.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B383A9EF5F93B4E9313EE62C3570CC5C /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		B7893403FF09CBF65B66CDB3D8F5FD64 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
-		B87D5C21B97B964506881CFCF0743D75 /* Pods-XiaoDeKitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XiaoDeKitTests.modulemap"; sourceTree = "<group>"; };
-		BE4B670C7D6D47819904735457B19367 /* Pods-XiaoDeKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoDeKitTests-umbrella.h"; sourceTree = "<group>"; };
-		C53CAAF688C5B6BC99D5BB56E98A5950 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CBBE81CD5775F43C2E254B36ED1502B2 /* Timer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Timer+Extension.swift"; sourceTree = "<group>"; };
-		CBD60E81B9499DDDF926D6A4D5775681 /* XiaoDeKit-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XiaoDeKit-Swift-Info.plist"; sourceTree = "<group>"; };
-		CEE6FEC4A687A866CD4DA2F742BB9009 /* XiaoDeKit-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoDeKit-Swift-prefix.pch"; sourceTree = "<group>"; };
-		D29BCDA7CFA115A5D0A543B370C52C62 /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
-		E9875B7A958EDBDCE79C622D63DE2E4C /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
-		ED0CEC6A92A7E705B37B1F20C1311553 /* Pods-XiaoDeKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKitTests.release.xcconfig"; sourceTree = "<group>"; };
-		F04EF3BA5209FDD2083F2BB10F851293 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
-		F2676BEDDB53479A79480981EA6F0B63 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		A954973D1F75507D9FCD417105B971CC /* XDNestScrollContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDNestScrollContainerView.swift; path = XiaoDeKit/Source/XDNestView/XDNestScrollContainerView.swift; sourceTree = "<group>"; };
+		ADA78BD03F10F0F29E2FF620466559DD /* UITabBar+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBar+Extension.swift"; sourceTree = "<group>"; };
+		B1CD961DE32BD42D0C8D2503909A1B9C /* String+Localizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		B1E97CF72425BA26F9B5532FC6268111 /* Pods-XiaoDeKit-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKit-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B2948A68BD820E2B0D787F5429E61D60 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		B34A1E09BA985C627B78EBC2184BB6FB /* UIButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		B66F5367847CC9AA390F7ADFC51FFA4B /* TemplateTableHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateTableHeaderView.swift; sourceTree = "<group>"; };
+		BCC123C2B41D5CAF091C68F399BFB6FE /* TemplateControllerTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateControllerTableView.swift; sourceTree = "<group>"; };
+		BCCC8960398797A9321BFD9BBE85103A /* TemplateProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateProtocol.swift; sourceTree = "<group>"; };
+		C0832D911606C92AEF8BBA11FA46A28F /* XDWebViewSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDWebViewSource.swift; path = XiaoDeKit/Source/XDWeb/XDWebViewSource.swift; sourceTree = "<group>"; };
+		C0837F96324502B3D2E5FCECB7278F41 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		C11FB014C985586628FCEB2944244E31 /* Pods-XiaoDeKit-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKit-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C59C6A7089F2E05330598A615F2BA749 /* Pods-XiaoDeKit-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XiaoDeKit-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C700D3BFAADBCF643100B768DDF640E9 /* XDNestScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDNestScrollView.swift; path = XiaoDeKit/Source/XDNestView/XDNestScrollView.swift; sourceTree = "<group>"; };
+		C775F273ABA0DD02ADD483922A6E2AF8 /* TemplateMapperModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateMapperModel.swift; sourceTree = "<group>"; };
+		C78843858D6A83DB6F3A24DE8AE0377A /* TemplateMJRefreshHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateMJRefreshHeader.swift; sourceTree = "<group>"; };
+		C7CFBAB7FDBFBD23411C713C65674C4D /* XiaoDeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XiaoDeKit.framework; path = "XiaoDeKit-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CE83AFE4F64E982712956E8BD6479B /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		CA3954826A54930922B9671B7EF3E32F /* TemplateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCBC47C3E58422C524E7B4E97D2E9850 /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		CE0CBCCE00E6CC9B6F3DC8213E2E5CE7 /* XiaoDeKit-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoDeKit-Swift-prefix.pch"; sourceTree = "<group>"; };
+		D31D8D9B44C9D4C25237E80EA50F6C1B /* TemplateControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateControl.swift; sourceTree = "<group>"; };
+		D354B1BB2FF62AE07CB9EA828EA79804 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		D430C7E7CF52AD2A106DA8E72E71ACC3 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		D7B03650448D1B8C73A8AC9CD425352D /* TemplateControllerTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateControllerTabBar.swift; sourceTree = "<group>"; };
+		DB4E47236C2AEAAC13A5426E0E6151AB /* TemplateSingleInstance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateSingleInstance.swift; sourceTree = "<group>"; };
+		DC231257E180E27F006BB91CAD4BA527 /* XiaoDeKit-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XiaoDeKit-Swift-dummy.m"; sourceTree = "<group>"; };
+		DEDD74D45FA57F6A01D3B7FE1FE1E8E4 /* TemplateMJRefreshTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateMJRefreshTableView.swift; sourceTree = "<group>"; };
+		DF76667C611F0C908326EA4D0AE7C55C /* TemplateCollectionHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateCollectionHeaderFooterView.swift; sourceTree = "<group>"; };
+		E03F434A01B1C7E3BCEE6EEC83272096 /* Pods-XiaoDeKit-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKit-Example-Info.plist"; sourceTree = "<group>"; };
+		E1A9A7E9C2B31897A0B05199F83B5081 /* StringHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHelper.swift; path = XiaoDeKit/Source/Helper/StringHelper.swift; sourceTree = "<group>"; };
+		E2563E4FCC48E8A818F3091A245B8AE5 /* XiaoDeKit-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "XiaoDeKit-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E464BA5B6BE1E53DBF3FAF340DC3DA4C /* TemplateControllerPresented.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateControllerPresented.swift; sourceTree = "<group>"; };
+		E7FD2A9818218FEC58087D8532BF21C1 /* Pods-XiaoDeKit-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XiaoDeKit-Example.modulemap"; sourceTree = "<group>"; };
+		ECE9231B6D09284A32E92DE6B179CD56 /* XiaoDeKit-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "XiaoDeKit-Swift.xcconfig"; sourceTree = "<group>"; };
+		F1D996BDFF1F219A5217B45927599BFF /* TextViewHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewHelper.swift; path = XiaoDeKit/Source/Helper/TextViewHelper.swift; sourceTree = "<group>"; };
+		F7915DCEFDEC59D8C8AAB718A6A2F448 /* Pods-XiaoDeKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XiaoDeKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD68707A125508E6193AD636563CADAC /* Pods_XiaoDeKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XiaoDeKitTests.framework; path = "Pods-XiaoDeKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE6C5892F5FFE3AABE3E59B51764665 /* CGSize+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		348D502081C7377578A51BB54AC2619B /* Frameworks */ = {
+		3C1C8B579462BD50E56E8E2CCF240CEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1660491E18237F59DDAFCD056F43F4E6 /* Foundation.framework in Frameworks */,
+				8D025BA65F7E05EF735CDFB600EAB9BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1061B7AA8F5F5521CC64E11156E4415 /* Frameworks */ = {
+		9F4C43E8DD01C3ACBCDD3A2D0591E663 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A411F4FCB56F4FCED957C52766B6493 /* Foundation.framework in Frameworks */,
+				4E81A46DF8C022166B357C8201F0239E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6479A6975D8FE3B2BD7638444613F59 /* Frameworks */ = {
+		E448EFF21B4D9410D3439CA2ED7B0085 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB83C83009DB19AFB03E992F4D3059F /* Foundation.framework in Frameworks */,
+				FAE62F4541554D626A2AEEF3E50B5444 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F7AB45D3255D344C040BC9445800B46 /* Development Pods */ = {
+		176176C3F1882C944D5B20D3528DE1E8 /* Template */ = {
 			isa = PBXGroup;
 			children = (
-				D4B51CC84585A13FA3E522227837D226 /* XiaoDeKit-Swift */,
+				1BD3149AC9AE9C738711A7E07F005083 /* Controller */,
+				5532C68F0D0347E8193742431076D1B1 /* Other */,
+				D8B6FDBFF1C5A6216A900DE6A37E9DE3 /* Vender */,
+				2260FDB0F639FAC83A3C28BA0F2B0ABF /* View */,
 			);
-			name = "Development Pods";
+			name = Template;
 			sourceTree = "<group>";
 		};
-		163BC12C58DC3F805B319DF368AE11B1 /* Extension */ = {
+		17ED38FA184FEC9F08AF41A53EE5A5E6 /* XDWeb */ = {
 			isa = PBXGroup;
 			children = (
-				3EB7544C82FE0201EFE6C809A592A0C7 /* Foundation+Extension */,
-				3572E5B3FA2DB37C3EC4C6D4715A42F1 /* UIKit+Extension */,
+				C0832D911606C92AEF8BBA11FA46A28F /* XDWebViewSource.swift */,
 			);
-			name = Extension;
+			name = XDWeb;
+			sourceTree = "<group>";
+		};
+		1BD3149AC9AE9C738711A7E07F005083 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10D10D19335345A5A570D702A3DD47A5 /* TemplateControllerCollectionView.swift */,
+				74B569AAD888AA7BF0FCA80CB1213079 /* TemplateControllerHorScrollPage.swift */,
+				464291A04F4FA8599D4F7E6C51E30425 /* TemplateControllerMultiTitle.swift */,
+				E464BA5B6BE1E53DBF3FAF340DC3DA4C /* TemplateControllerPresented.swift */,
+				D7B03650448D1B8C73A8AC9CD425352D /* TemplateControllerTabBar.swift */,
+				BCC123C2B41D5CAF091C68F399BFB6FE /* TemplateControllerTableView.swift */,
+				66D808887486B1E496B4A0601FB284EC /* TemplateControllerView.swift */,
+				5F637F818222B7BC54FC32F0B48ACFB0 /* TemplateControllerWKWebView.swift */,
+			);
+			name = Controller;
+			path = XiaoDeKit/Source/Template/Controller;
+			sourceTree = "<group>";
+		};
+		2260FDB0F639FAC83A3C28BA0F2B0ABF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C329EC2F271DA364647655BA43BAF45 /* TemplateAverageWidthTitleView.swift */,
+				DF76667C611F0C908326EA4D0AE7C55C /* TemplateCollectionHeaderFooterView.swift */,
+				CA3954826A54930922B9671B7EF3E32F /* TemplateCollectionViewCell.swift */,
+				D31D8D9B44C9D4C25237E80EA50F6C1B /* TemplateControl.swift */,
+				043206FE8138FFDBA298859BE233DE22 /* TemplateListView.swift */,
+				5D92E2B64B93AC1871104245911FF0C0 /* TemplateTableHeaderFooterView.swift */,
+				B66F5367847CC9AA390F7ADFC51FFA4B /* TemplateTableHeaderView.swift */,
+				7AD8C4D677A3D8279A1624CFB77C49AB /* TemplateTableViewCell.swift */,
+				127BDFB98AA4F115E3D9E379989D5B50 /* TemplateView.swift */,
+			);
+			name = View;
+			path = XiaoDeKit/Source/Template/View;
 			sourceTree = "<group>";
 		};
 		249F7B943A40E1890DB5784C4DE37D16 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A9E17FBAF0B6A9555FC6DAC4FCFB4A22 /* Pods-XiaoDeKit-Example */,
-				BFE0E20AD59885871F23B0B6DFA4CFC4 /* Pods-XiaoDeKitTests */,
+				B7D267A4717307EE418D1D914A96C474 /* Pods-XiaoDeKit-Example */,
+				B886A0C96A0D3C7EB8624AFFCDEC3EBC /* Pods-XiaoDeKitTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3572E5B3FA2DB37C3EC4C6D4715A42F1 /* UIKit+Extension */ = {
+		2DC2CA15B97D6B34DE956B1C64F2B3B1 /* UIKit+Extension */ = {
 			isa = PBXGroup;
 			children = (
-				51C5AA3559FD5EFF5FA01CCA2B630D64 /* UIButton+Extension.swift */,
-				54F8DA5BCEDE0ED598FEC19CB7A0F56A /* UIColor+Extension.swift */,
-				B7893403FF09CBF65B66CDB3D8F5FD64 /* UIDevice+Extension.swift */,
-				D29BCDA7CFA115A5D0A543B370C52C62 /* UIImage+Extension.swift */,
-				29C53A01B1330498D3A1D67C49280951 /* UILabel+Extension.swift */,
-				E9875B7A958EDBDCE79C622D63DE2E4C /* UINavigationController+Extension.swift */,
-				6825C96EA3E54189F362ADB88DB9AFF8 /* UITabBar+Extension.swift */,
-				33E13FEBAAEE45CA551AFD342AB7089C /* UITextField+Extension.swift */,
-				B383A9EF5F93B4E9313EE62C3570CC5C /* UIViewController+Extension.swift */,
-				652DB8E90E8771E9FCDE1C0CCFAE4E84 /* UIViewController+UMExtension.swift */,
+				FEE6C5892F5FFE3AABE3E59B51764665 /* CGSize+Extension.swift */,
+				B34A1E09BA985C627B78EBC2184BB6FB /* UIButton+Extension.swift */,
+				9193F1750C4EF7812DCC1049AE30A04C /* UIColor+Extension.swift */,
+				D430C7E7CF52AD2A106DA8E72E71ACC3 /* UIDevice+Extension.swift */,
+				C8CE83AFE4F64E982712956E8BD6479B /* UIImage+Extension.swift */,
+				D354B1BB2FF62AE07CB9EA828EA79804 /* UIImageView+Extension.swift */,
+				83DBB9E443A2DF3F93F757EBAA2362DC /* UILabel+Extension.swift */,
+				59C7CCF2D991CEE8F16B3A55126B615F /* UINavigationController+Extension.swift */,
+				ADA78BD03F10F0F29E2FF620466559DD /* UITabBar+Extension.swift */,
+				057E53A75E1359A8FE56C60B24CC2A09 /* UITextField+Extension.swift */,
+				7EF642E76E82615AA0122E205771837D /* UIView+Extension.swift */,
+				06E9AE388F476B91365A2DE3E004BF24 /* UIViewController+Extension.swift */,
+				47FF6B4CC57462D73393F119AC029EAA /* UIViewController+UMExtension.swift */,
 			);
 			name = "UIKit+Extension";
-			path = "XiaoDeKit/Classes/Extension/UIKit+Extension";
+			path = "XiaoDeKit/Source/Extension/UIKit+Extension";
 			sourceTree = "<group>";
 		};
-		3EB7544C82FE0201EFE6C809A592A0C7 /* Foundation+Extension */ = {
+		3CAA54DE3FF905DA8E5FC2343C40B2DE /* XiaoDeKit-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				F04EF3BA5209FDD2083F2BB10F851293 /* CGFloat+Extension.swift */,
-				5B1058C739CFF23EB5D2A8AC4C05AA61 /* Date+Extension.swift */,
-				92CCF5EEE566BD7D86E03B8E6A258470 /* Double+Extension.swift */,
-				2B85B8EB716DFC703A8E5D3BD5B12119 /* FileManager+Extension.swift */,
-				F2676BEDDB53479A79480981EA6F0B63 /* NSAttributedString+Extension.swift */,
-				6F542897F8DF54DE9B0586597E408C1D /* NSMutableAttributedString+Extension.swift */,
-				3283040099B7CB8249A261155075E032 /* String+Extension.swift */,
-				651BFACBD0AF1FC393AFCC56B5408E14 /* String+Regular.swift */,
-				CBBE81CD5775F43C2E254B36ED1502B2 /* Timer+Extension.swift */,
+				9A2B3545E4EA1921A636280F3CED9BE8 /* Common */,
+				960D1F4F997608882368F66C960DA104 /* Constant */,
+				A496BD6A0DB3BABA8EEADA397C086C27 /* Extension */,
+				DF3F9C1EF328C69C9C46180E0E75599A /* Helper */,
+				EAF581629CE9480B9835BF219B38BF41 /* Pod */,
+				3E53C71B92000A02E6994C79EC557866 /* Support Files */,
+				176176C3F1882C944D5B20D3528DE1E8 /* Template */,
+				66E6336254680C03CC2FE0031A514CFB /* XDNestView */,
+				BD6807CA9C2CD38484A114D4867E89F1 /* XDPackageTimer */,
+				17ED38FA184FEC9F08AF41A53EE5A5E6 /* XDWeb */,
 			);
-			name = "Foundation+Extension";
-			path = "XiaoDeKit/Classes/Extension/Foundation+Extension";
+			name = "XiaoDeKit-Swift";
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		64770E55D2398A9BAD7274B8FBF30855 /* Support Files */ = {
+		3E53C71B92000A02E6994C79EC557866 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				31B04DD42822BC5FD53ED28CBE7227B0 /* XiaoDeKit-Swift.modulemap */,
-				68B49802373735E3F6121C3C16E0F731 /* XiaoDeKit-Swift.xcconfig */,
-				5B7AE1BFD9D9B1CD7A554151CD4244D8 /* XiaoDeKit-Swift-dummy.m */,
-				CBD60E81B9499DDDF926D6A4D5775681 /* XiaoDeKit-Swift-Info.plist */,
-				CEE6FEC4A687A866CD4DA2F742BB9009 /* XiaoDeKit-Swift-prefix.pch */,
-				7CAF6A669B35028892E6F9EDD00AD468 /* XiaoDeKit-Swift-umbrella.h */,
+				844EEFBF6CE9745ED9510D5973011519 /* XiaoDeKit-Swift.modulemap */,
+				ECE9231B6D09284A32E92DE6B179CD56 /* XiaoDeKit-Swift.xcconfig */,
+				DC231257E180E27F006BB91CAD4BA527 /* XiaoDeKit-Swift-dummy.m */,
+				59B6B7DD6F210EEB436438FAA3527DAB /* XiaoDeKit-Swift-Info.plist */,
+				CE0CBCCE00E6CC9B6F3DC8213E2E5CE7 /* XiaoDeKit-Swift-prefix.pch */,
+				96FA35E217C5A3D5DEF2074A857705EF /* XiaoDeKit-Swift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/XiaoDeKit-Swift";
 			sourceTree = "<group>";
 		};
-		7BC4BB4753A95784A5EA18D15BCE0DAE /* XDPackageTimer */ = {
+		5532C68F0D0347E8193742431076D1B1 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				227719A16D58B39350DD4277CFE460A4 /* XDPackageTimer.swift */,
+				BCCC8960398797A9321BFD9BBE85103A /* TemplateProtocol.swift */,
+				DB4E47236C2AEAAC13A5426E0E6151AB /* TemplateSingleInstance.swift */,
+				83E4AA5358E153DC7290D75A638B0E0F /* TemplateWebViewSource.swift */,
 			);
-			name = XDPackageTimer;
+			name = Other;
+			path = XiaoDeKit/Source/Template/Other;
 			sourceTree = "<group>";
 		};
-		8CACB8209D9D8697FE8C7A38D9A3C655 /* Pod */ = {
+		66B71778E40EF90DFC23840E882A8E39 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0473453AACD53EA952AA4B5BFFA43A19 /* LICENSE */,
-				C53CAAF688C5B6BC99D5BB56E98A5950 /* README.md */,
-				8563A1D4FAC3C079428AB989BDC2FF77 /* XiaoDeKit-Swift.podspec */,
+				3CAA54DE3FF905DA8E5FC2343C40B2DE /* XiaoDeKit-Swift */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A9E17FBAF0B6A9555FC6DAC4FCFB4A22 /* Pods-XiaoDeKit-Example */ = {
+		66E6336254680C03CC2FE0031A514CFB /* XDNestView */ = {
 			isa = PBXGroup;
 			children = (
-				125AAA3A5F89C10D993C1EBCB43F9C03 /* Pods-XiaoDeKit-Example.modulemap */,
-				87EA940035B8B327C6A7A91B4E14A7D4 /* Pods-XiaoDeKit-Example-acknowledgements.markdown */,
-				11850C4C6660B9F4F6FF97C832CC8D70 /* Pods-XiaoDeKit-Example-acknowledgements.plist */,
-				70B196E39D659D51522A183F40213E46 /* Pods-XiaoDeKit-Example-dummy.m */,
-				999C2821D23F2F889CBCE551FE6CCB64 /* Pods-XiaoDeKit-Example-frameworks.sh */,
-				7DA60E5D85091B798B7A67999F5C9F1A /* Pods-XiaoDeKit-Example-Info.plist */,
-				3F74AD2AFC958A35FC5C3CEE80773BAD /* Pods-XiaoDeKit-Example-umbrella.h */,
-				1AE827DFD53C35B8C1A2D4BD27113BB5 /* Pods-XiaoDeKit-Example.debug.xcconfig */,
-				840B21F5B1A975FDC2F4E34EAB29BBFF /* Pods-XiaoDeKit-Example.release.xcconfig */,
+				A954973D1F75507D9FCD417105B971CC /* XDNestScrollContainerView.swift */,
+				C700D3BFAADBCF643100B768DDF640E9 /* XDNestScrollView.swift */,
+			);
+			name = XDNestView;
+			sourceTree = "<group>";
+		};
+		7D9327CC3BD9780DD7D62D7A5BC5C38D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67029B2D3B004CD6641C1D462967182F /* Pods_XiaoDeKit_Example.framework */,
+				FD68707A125508E6193AD636563CADAC /* Pods_XiaoDeKitTests.framework */,
+				C7CFBAB7FDBFBD23411C713C65674C4D /* XiaoDeKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8571F0FF09CB29E72889491409BA2BA2 /* Foundation+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C0837F96324502B3D2E5FCECB7278F41 /* CGFloat+Extension.swift */,
+				5538144914DC603F9C6C5C3863493654 /* Date+Extension.swift */,
+				70494C40AA4C50C1243AB91DB4DD7183 /* Double+Extension.swift */,
+				6C62E64C39A55525437E99AB8638B13C /* FileManager+Extension.swift */,
+				B2948A68BD820E2B0D787F5429E61D60 /* NSAttributedString+Extension.swift */,
+				CCBC47C3E58422C524E7B4E97D2E9850 /* NSMutableAttributedString+Extension.swift */,
+				2BFD3EF2A16E3B4F208C10F91D15860F /* String+Extension.swift */,
+				B1CD961DE32BD42D0C8D2503909A1B9C /* String+Localizable.swift */,
+				094F2E314333C59EA188A2B957BE7313 /* String+Regular.swift */,
+				5B491E8C62737D5A47647EC20F7D5275 /* Timer+Extension.swift */,
+			);
+			name = "Foundation+Extension";
+			path = "XiaoDeKit/Source/Extension/Foundation+Extension";
+			sourceTree = "<group>";
+		};
+		960D1F4F997608882368F66C960DA104 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				303D2DDD2CBE313F4F067B51C87F3BE2 /* Constant.swift */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		9A2B3545E4EA1921A636280F3CED9BE8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				51B6B76513D4ECDD544A012ED69C4B34 /* NoHighlightedButton.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A496BD6A0DB3BABA8EEADA397C086C27 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8571F0FF09CB29E72889491409BA2BA2 /* Foundation+Extension */,
+				2DC2CA15B97D6B34DE956B1C64F2B3B1 /* UIKit+Extension */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		B7D267A4717307EE418D1D914A96C474 /* Pods-XiaoDeKit-Example */ = {
+			isa = PBXGroup;
+			children = (
+				E7FD2A9818218FEC58087D8532BF21C1 /* Pods-XiaoDeKit-Example.modulemap */,
+				C59C6A7089F2E05330598A615F2BA749 /* Pods-XiaoDeKit-Example-acknowledgements.markdown */,
+				C11FB014C985586628FCEB2944244E31 /* Pods-XiaoDeKit-Example-acknowledgements.plist */,
+				22DC8B4030B3977BC9364C06E13955FD /* Pods-XiaoDeKit-Example-dummy.m */,
+				5BEC8B84C885F0CDD4DDABF8F00650A9 /* Pods-XiaoDeKit-Example-frameworks.sh */,
+				E03F434A01B1C7E3BCEE6EEC83272096 /* Pods-XiaoDeKit-Example-Info.plist */,
+				64C2065CD14B4EED527010693905AF79 /* Pods-XiaoDeKit-Example-umbrella.h */,
+				B1E97CF72425BA26F9B5532FC6268111 /* Pods-XiaoDeKit-Example.debug.xcconfig */,
+				3FB776970662645B75A9928CA093ABEF /* Pods-XiaoDeKit-Example.release.xcconfig */,
 			);
 			name = "Pods-XiaoDeKit-Example";
 			path = "Target Support Files/Pods-XiaoDeKit-Example";
 			sourceTree = "<group>";
 		};
-		BFE0E20AD59885871F23B0B6DFA4CFC4 /* Pods-XiaoDeKitTests */ = {
+		B886A0C96A0D3C7EB8624AFFCDEC3EBC /* Pods-XiaoDeKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				B87D5C21B97B964506881CFCF0743D75 /* Pods-XiaoDeKitTests.modulemap */,
-				9C8C477C75D08F059FF009ADF9355903 /* Pods-XiaoDeKitTests-acknowledgements.markdown */,
-				363FBCD4E6689F1F9FB3259D9F92ED6C /* Pods-XiaoDeKitTests-acknowledgements.plist */,
-				19BC488437C2E714806BFB2620CD1707 /* Pods-XiaoDeKitTests-dummy.m */,
-				3BEBC810C49014CDEB03DBA57905B429 /* Pods-XiaoDeKitTests-Info.plist */,
-				BE4B670C7D6D47819904735457B19367 /* Pods-XiaoDeKitTests-umbrella.h */,
-				5185E718C7CEAB52038C7FE2EFB008FE /* Pods-XiaoDeKitTests.debug.xcconfig */,
-				ED0CEC6A92A7E705B37B1F20C1311553 /* Pods-XiaoDeKitTests.release.xcconfig */,
+				2EF94B406197598597CF5F317F516D66 /* Pods-XiaoDeKitTests.modulemap */,
+				F7915DCEFDEC59D8C8AAB718A6A2F448 /* Pods-XiaoDeKitTests-acknowledgements.markdown */,
+				7B2CDE3175118712CF759357B5722AB3 /* Pods-XiaoDeKitTests-acknowledgements.plist */,
+				28C732CE0505321C16800BA980FF269A /* Pods-XiaoDeKitTests-dummy.m */,
+				0824CEA67E582202D5C40D5EE987A889 /* Pods-XiaoDeKitTests-Info.plist */,
+				4F0096C0A7D06D959DC46A65BFF19351 /* Pods-XiaoDeKitTests-umbrella.h */,
+				6B6E6AFA841873D50F1668D63A91F67A /* Pods-XiaoDeKitTests.debug.xcconfig */,
+				767B44E05A60C853CEAB44651930520C /* Pods-XiaoDeKitTests.release.xcconfig */,
 			);
 			name = "Pods-XiaoDeKitTests";
 			path = "Target Support Files/Pods-XiaoDeKitTests";
+			sourceTree = "<group>";
+		};
+		BD6807CA9C2CD38484A114D4867E89F1 /* XDPackageTimer */ = {
+			isa = PBXGroup;
+			children = (
+				0DC5BB74BCC28A1E141BDBA55F732D24 /* XDPackageTimer.swift */,
+			);
+			name = XDPackageTimer;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -275,9 +461,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0F7AB45D3255D344C040BC9445800B46 /* Development Pods */,
+				66B71778E40EF90DFC23840E882A8E39 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D6F82E22B4570B140A9A43208B037F70 /* Products */,
+				7D9327CC3BD9780DD7D62D7A5BC5C38D /* Products */,
 				249F7B943A40E1890DB5784C4DE37D16 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -290,66 +476,78 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4B51CC84585A13FA3E522227837D226 /* XiaoDeKit-Swift */ = {
+		D8B6FDBFF1C5A6216A900DE6A37E9DE3 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
-				163BC12C58DC3F805B319DF368AE11B1 /* Extension */,
-				8CACB8209D9D8697FE8C7A38D9A3C655 /* Pod */,
-				64770E55D2398A9BAD7274B8FBF30855 /* Support Files */,
-				7BC4BB4753A95784A5EA18D15BCE0DAE /* XDPackageTimer */,
+				C775F273ABA0DD02ADD483922A6E2AF8 /* TemplateMapperModel.swift */,
+				318A1463A1A1930CA526856FFFB2AF5F /* TemplateMJRefreshFooter.swift */,
+				C78843858D6A83DB6F3A24DE8AE0377A /* TemplateMJRefreshHeader.swift */,
+				DEDD74D45FA57F6A01D3B7FE1FE1E8E4 /* TemplateMJRefreshTableView.swift */,
+				9A3BE0EE7B766D0ADCBA415493DF6D88 /* TemplateRealmModel.swift */,
 			);
-			name = "XiaoDeKit-Swift";
-			path = ../..;
+			name = Vender;
+			path = XiaoDeKit/Source/Template/Vender;
 			sourceTree = "<group>";
 		};
-		D6F82E22B4570B140A9A43208B037F70 /* Products */ = {
+		DF3F9C1EF328C69C9C46180E0E75599A /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				5397821849E0E119EFCF95A9D271961E /* Pods_XiaoDeKit_Example.framework */,
-				172527C8D437E0AC6358FC832BA20D2B /* Pods_XiaoDeKitTests.framework */,
-				371BDD880B9FD8B188ECC8246DFE2589 /* XiaoDeKit.framework */,
+				3E815B0C04A1504CB1420E7494683186 /* ChainOneHelper.swift */,
+				E1A9A7E9C2B31897A0B05199F83B5081 /* StringHelper.swift */,
+				6726C17C5D0814687A78D020BE23C33E /* TextFieldHelper.swift */,
+				F1D996BDFF1F219A5217B45927599BFF /* TextViewHelper.swift */,
 			);
-			name = Products;
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		EAF581629CE9480B9835BF219B38BF41 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5B1C1258B602865F0028A209319F4F03 /* LICENSE */,
+				4F3133A4769E65B8810A1D9175BC3C31 /* README.md */,
+				E2563E4FCC48E8A818F3091A245B8AE5 /* XiaoDeKit-Swift.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		53E830637C4488F4563FCB06F6C4C27C /* Headers */ = {
+		0CE7F0F85CF15FB5D13DBFEDF90221CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8DB021039CC6EEBFE6771AB10CC3539 /* XiaoDeKit-Swift-umbrella.h in Headers */,
+				814CFCB17D4C89D624168F49B097CF11 /* Pods-XiaoDeKit-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E6B1A5EBBE42CD553A97ABE8B8D2910 /* Headers */ = {
+		443CB570842CDBC212E3FFB2FE0AA858 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CBF4BC2063D0D37B8DF48A557958390 /* Pods-XiaoDeKit-Example-umbrella.h in Headers */,
+				3268023E37212DDA7FBB8441357A4A65 /* XiaoDeKit-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AF2AB50E62C4D2902A4F5A84D034FD3 /* Headers */ = {
+		7E39EBA456A8F456E019CAE7113B0866 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60B5B4FF1A0F1219A24E69E140276F09 /* Pods-XiaoDeKitTests-umbrella.h in Headers */,
+				EFFF359C29DECAD950B1EE56FC4D3F4C /* Pods-XiaoDeKitTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		00642C9C38E35D9BBB854B029962B282 /* XiaoDeKit-Swift */ = {
+		5966B4FE0CADBD67E3ACCBB41C6318EE /* XiaoDeKit-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D865D9FA42CF254A760CF26D5D45D9F6 /* Build configuration list for PBXNativeTarget "XiaoDeKit-Swift" */;
+			buildConfigurationList = 73FD6C0A9C291D89538D2A309924205A /* Build configuration list for PBXNativeTarget "XiaoDeKit-Swift" */;
 			buildPhases = (
-				53E830637C4488F4563FCB06F6C4C27C /* Headers */,
-				61E4CE03EB30213B067185BCDDE441E4 /* Sources */,
-				D6479A6975D8FE3B2BD7638444613F59 /* Frameworks */,
-				CEDDF056D3C8A8BD11FB49C8098DA276 /* Resources */,
+				443CB570842CDBC212E3FFB2FE0AA858 /* Headers */,
+				C530A9531E8EDDE63FCCC2CB3AF73036 /* Sources */,
+				E448EFF21B4D9410D3439CA2ED7B0085 /* Frameworks */,
+				057E879D7A7C069AA2B32AF4634ECF67 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -357,45 +555,45 @@
 			);
 			name = "XiaoDeKit-Swift";
 			productName = "XiaoDeKit-Swift";
-			productReference = 371BDD880B9FD8B188ECC8246DFE2589 /* XiaoDeKit.framework */;
+			productReference = C7CFBAB7FDBFBD23411C713C65674C4D /* XiaoDeKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5205B1FA3EE18F8CF33D9C70A62B938C /* Pods-XiaoDeKit-Example */ = {
+		6C1EDD939AD8CC39B3AA3BFE1EE5B3C3 /* Pods-XiaoDeKit-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74CFD10A061BF186BE6D8A46728578AF /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKit-Example" */;
+			buildConfigurationList = F4F11F99A53BF2989997D08AF28AD631 /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKit-Example" */;
 			buildPhases = (
-				5E6B1A5EBBE42CD553A97ABE8B8D2910 /* Headers */,
-				2676E2BD7A20B5F178B23144A76FDC61 /* Sources */,
-				B1061B7AA8F5F5521CC64E11156E4415 /* Frameworks */,
-				2F07BFBA4127B0088F95875F0EC6F4F6 /* Resources */,
+				0CE7F0F85CF15FB5D13DBFEDF90221CB /* Headers */,
+				C0A01A1DC66A05AEFC895C670C0F526B /* Sources */,
+				9F4C43E8DD01C3ACBCDD3A2D0591E663 /* Frameworks */,
+				6F673250BF51A6A90F30578209D8DD49 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				30AF528508D4664299974AC656860FAF /* PBXTargetDependency */,
+				21177CEF639B1C5273AEEB2BB733355C /* PBXTargetDependency */,
 			);
 			name = "Pods-XiaoDeKit-Example";
 			productName = "Pods-XiaoDeKit-Example";
-			productReference = 5397821849E0E119EFCF95A9D271961E /* Pods_XiaoDeKit_Example.framework */;
+			productReference = 67029B2D3B004CD6641C1D462967182F /* Pods_XiaoDeKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F7B49FFB68046BAA23855436629E98A8 /* Pods-XiaoDeKitTests */ = {
+		F87AEC980B102B8EAD0D45829DB3100E /* Pods-XiaoDeKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B758754C223AFF63AEE7A56587DBAA7D /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKitTests" */;
+			buildConfigurationList = B1A3753B01D38417D65C7B81C9CA8BDE /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKitTests" */;
 			buildPhases = (
-				7AF2AB50E62C4D2902A4F5A84D034FD3 /* Headers */,
-				EC61C986E84B3DFED4BC4F7ADBFD924B /* Sources */,
-				348D502081C7377578A51BB54AC2619B /* Frameworks */,
-				C597D6523723B45057F78BDDC98F1C5A /* Resources */,
+				7E39EBA456A8F456E019CAE7113B0866 /* Headers */,
+				8BC66A06287BCF611F705A66646F69BC /* Sources */,
+				3C1C8B579462BD50E56E8E2CCF240CEF /* Frameworks */,
+				FB34EA0FC9F1DB6828EC7A8D91A64CC9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				614B4E6CAC850A520683CEAF3452A2C0 /* PBXTargetDependency */,
+				8DFD743DE0C73FD9243424EE51DB401F /* PBXTargetDependency */,
 			);
 			name = "Pods-XiaoDeKitTests";
 			productName = "Pods-XiaoDeKitTests";
-			productReference = 172527C8D437E0AC6358FC832BA20D2B /* Pods_XiaoDeKitTests.framework */;
+			productReference = FD68707A125508E6193AD636563CADAC /* Pods_XiaoDeKitTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -404,8 +602,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -415,33 +613,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D6F82E22B4570B140A9A43208B037F70 /* Products */;
+			productRefGroup = 7D9327CC3BD9780DD7D62D7A5BC5C38D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5205B1FA3EE18F8CF33D9C70A62B938C /* Pods-XiaoDeKit-Example */,
-				F7B49FFB68046BAA23855436629E98A8 /* Pods-XiaoDeKitTests */,
-				00642C9C38E35D9BBB854B029962B282 /* XiaoDeKit-Swift */,
+				6C1EDD939AD8CC39B3AA3BFE1EE5B3C3 /* Pods-XiaoDeKit-Example */,
+				F87AEC980B102B8EAD0D45829DB3100E /* Pods-XiaoDeKitTests */,
+				5966B4FE0CADBD67E3ACCBB41C6318EE /* XiaoDeKit-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2F07BFBA4127B0088F95875F0EC6F4F6 /* Resources */ = {
+		057E879D7A7C069AA2B32AF4634ECF67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C597D6523723B45057F78BDDC98F1C5A /* Resources */ = {
+		6F673250BF51A6A90F30578209D8DD49 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEDDF056D3C8A8BD11FB49C8098DA276 /* Resources */ = {
+		FB34EA0FC9F1DB6828EC7A8D91A64CC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,104 +649,106 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2676E2BD7A20B5F178B23144A76FDC61 /* Sources */ = {
+		8BC66A06287BCF611F705A66646F69BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C1BACFD336981529D63E67A1ED83FE /* Pods-XiaoDeKit-Example-dummy.m in Sources */,
+				294145AF030C3ED731D28872C8677B48 /* Pods-XiaoDeKitTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61E4CE03EB30213B067185BCDDE441E4 /* Sources */ = {
+		C0A01A1DC66A05AEFC895C670C0F526B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC1EA07C3ACCBB7A00A739F7E0011BEC /* CGFloat+Extension.swift in Sources */,
-				C4396B1404869C5F5074ECE5F86687CE /* Date+Extension.swift in Sources */,
-				1CB52FA99A4BD277543A989DA789D724 /* Double+Extension.swift in Sources */,
-				587CC0ECC930AD7DDDB71EF60EEE76BC /* FileManager+Extension.swift in Sources */,
-				631F798861D1B5AD011F621B461EF6ED /* NSAttributedString+Extension.swift in Sources */,
-				5EBE3C366C88F361CC4453A461BF8FC7 /* NSMutableAttributedString+Extension.swift in Sources */,
-				D6667763A53FA5DF2E30A61FAFA392B0 /* String+Extension.swift in Sources */,
-				70A37078E1886175D93257400AA2C1AE /* String+Regular.swift in Sources */,
-				4C86A82F23D6BAB41071AEA41E5D711A /* Timer+Extension.swift in Sources */,
-				D8C3885DCF784CFC45BEC3851BFFE21A /* UIButton+Extension.swift in Sources */,
-				06E1BA4CEE37E85234E28F1EF9B5E431 /* UIColor+Extension.swift in Sources */,
-				9B763DB1E5F802BE577DF0507B32395A /* UIDevice+Extension.swift in Sources */,
-				9CB9AAAE473A343D5FC012ABEF86A21D /* UIImage+Extension.swift in Sources */,
-				D72859CC469B0495DA2758D5B621299C /* UILabel+Extension.swift in Sources */,
-				DFAC18EEC1BDDE5B10326018A070748E /* UINavigationController+Extension.swift in Sources */,
-				2DA88FBD7DC5779DB0B539B25888CB79 /* UITabBar+Extension.swift in Sources */,
-				F70F7AB153B9CC583C8512C0444268CE /* UITextField+Extension.swift in Sources */,
-				42C86FBD178A8E3F195BF3121ED18A42 /* UIViewController+Extension.swift in Sources */,
-				2284D958C0CD8AD3B51C1AF61D95DC57 /* UIViewController+UMExtension.swift in Sources */,
-				D3C967AD2B1061FD4F1B31FB52B82F5F /* XDPackageTimer.swift in Sources */,
-				F3E0E34AD9A0357A2A47160B0BC2B500 /* XiaoDeKit-Swift-dummy.m in Sources */,
+				9C95CDA630F76506DCB4742326D6F27D /* Pods-XiaoDeKit-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC61C986E84B3DFED4BC4F7ADBFD924B /* Sources */ = {
+		C530A9531E8EDDE63FCCC2CB3AF73036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				999EA7B78766BD2A26403FD3112F9063 /* Pods-XiaoDeKitTests-dummy.m in Sources */,
+				C41EC6A0BDE4EE70B2A0EB50EA5FDF64 /* CGFloat+Extension.swift in Sources */,
+				89F31407804C14B54F25E4B871308FD5 /* CGSize+Extension.swift in Sources */,
+				7F11A4AC1700794C55246E6EEF0FEBA6 /* ChainOneHelper.swift in Sources */,
+				0351DB988F8DA80D106212A25196CC2E /* Constant.swift in Sources */,
+				24E53CC8078D8D692B464C0F7BD42905 /* Date+Extension.swift in Sources */,
+				5457B3608B7BE2868E8E0C2848EB6A54 /* Double+Extension.swift in Sources */,
+				D2A04D45842AC2875AA6F203CC5FC2F9 /* FileManager+Extension.swift in Sources */,
+				D100ACEE5A4B8697489FC1FC4BB7B166 /* NoHighlightedButton.swift in Sources */,
+				769CBB8C47229BF0AF6C1CCC89BCB9FD /* NSAttributedString+Extension.swift in Sources */,
+				CD02F549DA7F50AE2483E881724C383B /* NSMutableAttributedString+Extension.swift in Sources */,
+				1A4EB6510D273926D205A9584757F0C3 /* String+Extension.swift in Sources */,
+				E07515B086FC035BB4BFE4E18654600A /* String+Localizable.swift in Sources */,
+				0B2AFD27F627AFA065FB35A0F01981EB /* String+Regular.swift in Sources */,
+				7B19E5AB53B48EAAA2D7883981DE163F /* StringHelper.swift in Sources */,
+				502A710D415FDD037D95287E2624E5D3 /* TemplateAverageWidthTitleView.swift in Sources */,
+				8DD1C5AE25D32B4B01D19BA018C8B5C7 /* TemplateCollectionHeaderFooterView.swift in Sources */,
+				D3E112215B1EB760BD998EFE9172B2B6 /* TemplateCollectionViewCell.swift in Sources */,
+				6E1DCEE6941917790E315D654B733CFC /* TemplateControl.swift in Sources */,
+				4187D1DAEE9403A914101CAE8C6DE45D /* TemplateControllerCollectionView.swift in Sources */,
+				0C226E036DF86FFAB4718A3CF60BE436 /* TemplateControllerHorScrollPage.swift in Sources */,
+				C743242C03C0A2A0BF0A73CD911B6B8E /* TemplateControllerMultiTitle.swift in Sources */,
+				BA920DC6210F70D41A5DD0306BA78F7A /* TemplateControllerPresented.swift in Sources */,
+				75BA362EAE78EC4CEE8B80BDBC3141D6 /* TemplateControllerTabBar.swift in Sources */,
+				167968FA8A87A93C821096E984FE93CE /* TemplateControllerTableView.swift in Sources */,
+				310C695E87FA45CAD2F32D0A57454A37 /* TemplateControllerView.swift in Sources */,
+				3FC1AD848329702410C8CDE92059022E /* TemplateControllerWKWebView.swift in Sources */,
+				51EEF224B83E868188B4DE1E2E1EEC71 /* TemplateListView.swift in Sources */,
+				BACB11A4404E1C4C172313749BA354F6 /* TemplateMapperModel.swift in Sources */,
+				AF08AF377873B8C943F9D7A9929D073B /* TemplateMJRefreshFooter.swift in Sources */,
+				EFC1AF704912AF1DC3D40798C4F4CA14 /* TemplateMJRefreshHeader.swift in Sources */,
+				CD24080E72B2838E5F560A784CD78ACE /* TemplateMJRefreshTableView.swift in Sources */,
+				9B88F88EF3CCA787FCF0245E265EA963 /* TemplateProtocol.swift in Sources */,
+				905DD4D95336DA2B6E5F347E744489CD /* TemplateRealmModel.swift in Sources */,
+				B12F2850CF611AB016D70F9A78F2DBA9 /* TemplateSingleInstance.swift in Sources */,
+				D68335B4E5E9104B89E7FA2E6B9FE960 /* TemplateTableHeaderFooterView.swift in Sources */,
+				3194010E059F39B9190A7015096544FE /* TemplateTableHeaderView.swift in Sources */,
+				5F4E61B235E90109B79C101ED2599A4D /* TemplateTableViewCell.swift in Sources */,
+				B75B32306BD85F412C1F136A66AD4C18 /* TemplateView.swift in Sources */,
+				4C28D4034ED0CF28076F33F74EF10808 /* TemplateWebViewSource.swift in Sources */,
+				4DEFEDC5AA35C3DDCF375E472B03301E /* TextFieldHelper.swift in Sources */,
+				D533B1CB259D847CE467F9CB857FCB96 /* TextViewHelper.swift in Sources */,
+				CE7C04019A8F8AAE27F64160FB785704 /* Timer+Extension.swift in Sources */,
+				6E3D8ABB212944A293F898BECF3C8824 /* UIButton+Extension.swift in Sources */,
+				420CB584E352656AD4D70415409B113A /* UIColor+Extension.swift in Sources */,
+				91777DBB472F86DA6606C5254D12B2E1 /* UIDevice+Extension.swift in Sources */,
+				70FC9BCC22555770F28A9A9E8546F3B2 /* UIImage+Extension.swift in Sources */,
+				B2E07D9D25711452AF6D14A9A66B114E /* UIImageView+Extension.swift in Sources */,
+				78302FA487E3D0B6EB4A87CC0DD88E07 /* UILabel+Extension.swift in Sources */,
+				8CB885A814C0625916E3EFC7FCEF15E4 /* UINavigationController+Extension.swift in Sources */,
+				E89E150A59C0241EFBF86C3714192B79 /* UITabBar+Extension.swift in Sources */,
+				650F448BC9FCC3AF28D3C8705194D91D /* UITextField+Extension.swift in Sources */,
+				B0E90CE4BF39E35376595D4B1F9684F2 /* UIView+Extension.swift in Sources */,
+				6DB29A8BD36C790738BADCB5F418E2C3 /* UIViewController+Extension.swift in Sources */,
+				8C2952420040E01C4C01D8B6AA3BC6E0 /* UIViewController+UMExtension.swift in Sources */,
+				BDCBC1B3467FB5DB3C266F18A413603C /* XDNestScrollContainerView.swift in Sources */,
+				060C8C95F996E7DA6FFA724CAE358DBA /* XDNestScrollView.swift in Sources */,
+				65ABE02E71FA239679101ECC0D70B351 /* XDPackageTimer.swift in Sources */,
+				B8F15A1C9CAA3848989DDF0AB0776002 /* XDWebViewSource.swift in Sources */,
+				BBE36360D1CC1EA4D3C631B45483BC1E /* XiaoDeKit-Swift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		30AF528508D4664299974AC656860FAF /* PBXTargetDependency */ = {
+		21177CEF639B1C5273AEEB2BB733355C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "XiaoDeKit-Swift";
-			target = 00642C9C38E35D9BBB854B029962B282 /* XiaoDeKit-Swift */;
-			targetProxy = 6E0D6BE792F7335B7358EB0E417FD3EA /* PBXContainerItemProxy */;
+			target = 5966B4FE0CADBD67E3ACCBB41C6318EE /* XiaoDeKit-Swift */;
+			targetProxy = 2B36F786822613FFF9CF5968B82BA5AD /* PBXContainerItemProxy */;
 		};
-		614B4E6CAC850A520683CEAF3452A2C0 /* PBXTargetDependency */ = {
+		8DFD743DE0C73FD9243424EE51DB401F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XiaoDeKit-Example";
-			target = 5205B1FA3EE18F8CF33D9C70A62B938C /* Pods-XiaoDeKit-Example */;
-			targetProxy = 803836F27459F55CF9732714E1B3FD02 /* PBXContainerItemProxy */;
+			target = 6C1EDD939AD8CC39B3AA3BFE1EE5B3C3 /* Pods-XiaoDeKit-Example */;
+			targetProxy = 7AC2D78C88F6997C41DCF45B357B73AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A0A80751CEFED4CFBA4A21D0F0355FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68B49802373735E3F6121C3C16E0F731 /* XiaoDeKit-Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift.modulemap";
-				PRODUCT_MODULE_NAME = XiaoDeKit;
-				PRODUCT_NAME = XiaoDeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -673,9 +873,118 @@
 			};
 			name = Release;
 		};
-		5D64BAE1E3A5AA04C032135E37883193 /* Release */ = {
+		6341076E96990BA06FD5C1A98487849C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED0CEC6A92A7E705B37B1F20C1311553 /* Pods-XiaoDeKitTests.release.xcconfig */;
+			baseConfigurationReference = B1E97CF72425BA26F9B5532FC6268111 /* Pods-XiaoDeKit-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65582AFA2B73378E8E1CE6FDFEFB5CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE9231B6D09284A32E92DE6B179CD56 /* XiaoDeKit-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift.modulemap";
+				PRODUCT_MODULE_NAME = XiaoDeKit;
+				PRODUCT_NAME = XiaoDeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		766FC60012F4E7D26ECC98C9F8368823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE9231B6D09284A32E92DE6B179CD56 /* XiaoDeKit-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift.modulemap";
+				PRODUCT_MODULE_NAME = XiaoDeKit;
+				PRODUCT_NAME = XiaoDeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		913759F5FA691A8ACB99CA85389E9229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767B44E05A60C853CEAB44651930520C /* Pods-XiaoDeKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -712,9 +1021,9 @@
 			};
 			name = Release;
 		};
-		611761F0835E869264C8EB23BB7C48FC /* Debug */ = {
+		A4748C7FFB10D3B02CC169D1AACFCC5D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5185E718C7CEAB52038C7FE2EFB008FE /* Pods-XiaoDeKitTests.debug.xcconfig */;
+			baseConfigurationReference = 6B6E6AFA841873D50F1668D63A91F67A /* Pods-XiaoDeKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -750,82 +1059,9 @@
 			};
 			name = Debug;
 		};
-		902045C7CC09BEF3ED745CF4C7BAF20C /* Debug */ = {
+		ED80A5060920580380484812DCE9F6D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68B49802373735E3F6121C3C16E0F731 /* XiaoDeKit-Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/XiaoDeKit-Swift/XiaoDeKit-Swift.modulemap";
-				PRODUCT_MODULE_NAME = XiaoDeKit;
-				PRODUCT_NAME = XiaoDeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D6D4A564EE63340E4855E98566EE9E6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AE827DFD53C35B8C1A2D4BD27113BB5 /* Pods-XiaoDeKit-Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F3356A98B5F738AB1E4D44ADAC5C5F44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 840B21F5B1A975FDC2F4E34EAB29BBFF /* Pods-XiaoDeKit-Example.release.xcconfig */;
+			baseConfigurationReference = 3FB776970662645B75A9928CA093ABEF /* Pods-XiaoDeKit-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -874,29 +1110,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74CFD10A061BF186BE6D8A46728578AF /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKit-Example" */ = {
+		73FD6C0A9C291D89538D2A309924205A /* Build configuration list for PBXNativeTarget "XiaoDeKit-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6D4A564EE63340E4855E98566EE9E6D /* Debug */,
-				F3356A98B5F738AB1E4D44ADAC5C5F44 /* Release */,
+				766FC60012F4E7D26ECC98C9F8368823 /* Debug */,
+				65582AFA2B73378E8E1CE6FDFEFB5CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B758754C223AFF63AEE7A56587DBAA7D /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKitTests" */ = {
+		B1A3753B01D38417D65C7B81C9CA8BDE /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				611761F0835E869264C8EB23BB7C48FC /* Debug */,
-				5D64BAE1E3A5AA04C032135E37883193 /* Release */,
+				A4748C7FFB10D3B02CC169D1AACFCC5D /* Debug */,
+				913759F5FA691A8ACB99CA85389E9229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D865D9FA42CF254A760CF26D5D45D9F6 /* Build configuration list for PBXNativeTarget "XiaoDeKit-Swift" */ = {
+		F4F11F99A53BF2989997D08AF28AD631 /* Build configuration list for PBXNativeTarget "Pods-XiaoDeKit-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				902045C7CC09BEF3ED745CF4C7BAF20C /* Debug */,
-				1A0A80751CEFED4CFBA4A21D0F0355FF /* Release */,
+				6341076E96990BA06FD5C1A98487849C /* Debug */,
+				ED80A5060920580380484812DCE9F6D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

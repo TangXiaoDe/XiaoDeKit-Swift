@@ -339,16 +339,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XiaoDeKit-Swift/XiaoDeKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XiaoDeKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
