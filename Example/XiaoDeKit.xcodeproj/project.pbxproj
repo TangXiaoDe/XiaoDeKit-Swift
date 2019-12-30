@@ -52,6 +52,7 @@
 		5348F260228D89AB009CB7C6 /* XiaoDeKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoDeKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5348F264228D89AB009CB7C6 /* XiaoDeKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaoDeKitUITests.swift; sourceTree = "<group>"; };
 		5348F266228D89AB009CB7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538A8F6523BA09A8008B5575 /* ChainOneKitPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChainOneKitPrefixHeader.pch; sourceTree = "<group>"; };
 		707F36F25072AB927315B50D /* Pods-XiaoDeKit-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoDeKit-Example.release.xcconfig"; path = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example.release.xcconfig"; sourceTree = "<group>"; };
 		AE00C30B7F1736CB30880925 /* Pods-XiaoDeKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoDeKitTests.debug.xcconfig"; path = "Target Support Files/Pods-XiaoDeKitTests/Pods-XiaoDeKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E36248754178099BEEAA289B /* Pods-XiaoDeKit-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoDeKit-Example.debug.xcconfig"; path = "Target Support Files/Pods-XiaoDeKit-Example/Pods-XiaoDeKit-Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 				5348F24B228D89AA009CB7C6 /* Assets.xcassets */,
 				5348F24D228D89AA009CB7C6 /* LaunchScreen.storyboard */,
 				5348F250228D89AA009CB7C6 /* Info.plist */,
+				538A8F6523BA09A8008B5575 /* ChainOneKitPrefixHeader.pch */,
 			);
 			path = XiaoDeKit;
 			sourceTree = "<group>";
@@ -154,7 +156,6 @@
 				AE00C30B7F1736CB30880925 /* Pods-XiaoDeKitTests.debug.xcconfig */,
 				15EA5F236881E73584A82E1B /* Pods-XiaoDeKitTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
