@@ -1,5 +1,5 @@
 //
-//  TemplateTableHeaderFooterView.swift
+//  TemplateUITableHeaderFooterView.swift
 //  SwiftKit-XiaoDe
 //
 //  Created by 小唐 on 13/02/2018.
@@ -11,12 +11,12 @@ import UIKit
 
 /// TemplateTableSectionHeaderFooterView
 ///  UITableViewHeaderFooterView 的使用模板
-class TemplateTableHeaderFooterView: UITableViewHeaderFooterView
+class TemplateUITableHeaderFooterView: UITableViewHeaderFooterView
 {
     
     // MARK: - Internal Property
     static let headerHeight: CGFloat = 75
-    static let identifier: String = "TemplateTableHeaderFooterViewReuseIdentifier"
+    static let identifier: String = "TemplateUITableHeaderFooterViewReuseIdentifier"
     
     // MARK: - Private Property
     
@@ -39,30 +39,30 @@ class TemplateTableHeaderFooterView: UITableViewHeaderFooterView
 }
 
 // MARK: - Internal Function
-extension TemplateTableHeaderFooterView {
+extension TemplateUITableHeaderFooterView {
     /// 便利构造
-    class func headerInTableView(_ tableView: UITableView) -> TemplateTableHeaderFooterView {
+    class func headerInTableView(_ tableView: UITableView) -> TemplateUITableHeaderFooterView {
         let identifier = self.identifier
         var headerFooterView = tableView.dequeueReusableHeaderFooterView(withIdentifier: identifier)
         if nil == headerFooterView {
-            headerFooterView = TemplateTableHeaderFooterView.init(reuseIdentifier: identifier)
+            headerFooterView = TemplateUITableHeaderFooterView.init(reuseIdentifier: identifier)
         }
         // 状态重置
-        if let headerFooterView = headerFooterView as? TemplateTableHeaderFooterView {
+        if let headerFooterView = headerFooterView as? TemplateUITableHeaderFooterView {
             headerFooterView.resetSelf()
         }
-        return headerFooterView as! TemplateTableHeaderFooterView
+        return headerFooterView as! TemplateUITableHeaderFooterView
     }
 
 }
 
 // MARK: - Override/LifeCycle Function
-extension TemplateTableHeaderFooterView {
+extension TemplateUITableHeaderFooterView {
 
 }
 
 // MARK: - UI
-extension TemplateTableHeaderFooterView {
+extension TemplateUITableHeaderFooterView {
     /// 重置
     fileprivate func resetSelf() -> Void {
         
@@ -76,12 +76,12 @@ extension TemplateTableHeaderFooterView {
 }
 
 // MARK: - Data
-extension TemplateTableHeaderFooterView {
+extension TemplateUITableHeaderFooterView {
     
 }
 
 // MARK: - Event
-extension TemplateTableHeaderFooterView {
+extension TemplateUITableHeaderFooterView {
     
 }
 

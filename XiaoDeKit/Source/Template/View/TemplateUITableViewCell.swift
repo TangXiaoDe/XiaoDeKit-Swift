@@ -1,5 +1,5 @@
 //
-//  TemplateTableViewCell.swift
+//  TemplateUITableViewCell.swift
 //  SwiftKit-XiaoDe
 //
 //  Created by 小唐 on 13/02/2018.
@@ -10,13 +10,13 @@
 import UIKit
 
 /// UITableViewCell的使用模板
-class TemplateTableViewCell: UITableViewCell
+class TemplateUITableViewCell: UITableViewCell
 {
     
     // MARK: - Internal Property
     static let cellHeight: CGFloat = 75
     /// 重用标识符
-    static let identifier: String = "TemplateTableViewCellReuseIdentifier"
+    static let identifier: String = "TemplateUITableViewCellReuseIdentifier"
     
     var indexPath: IndexPath?
     var model: String? {
@@ -49,25 +49,25 @@ class TemplateTableViewCell: UITableViewCell
 }
 
 // MARK: - Internal Function
-extension TemplateTableViewCell {
+extension TemplateUITableViewCell {
     /// 便利构造方法
-    class func cellInTableView(_ tableView: UITableView, at indexPath: IndexPath? = nil) -> TemplateTableViewCell {
-        let identifier = TemplateTableViewCell.identifier
+    class func cellInTableView(_ tableView: UITableView, at indexPath: IndexPath? = nil) -> TemplateUITableViewCell {
+        let identifier = TemplateUITableViewCell.identifier
         var cell = tableView.dequeueReusableCell(withIdentifier: identifier)
         if nil == cell {
-            cell = TemplateTableViewCell.init(style: .default, reuseIdentifier: identifier)
+            cell = TemplateUITableViewCell.init(style: .default, reuseIdentifier: identifier)
         }
         // 状态重置
-        if let cell = cell as? TemplateTableViewCell {
+        if let cell = cell as? TemplateUITableViewCell {
             cell.resetSelf()
             cell.indexPath = indexPath
         }
-        return cell as! TemplateTableViewCell
+        return cell as! TemplateUITableViewCell
     }
 }
 
 // MARK: - Override Function
-extension TemplateTableViewCell {
+extension TemplateUITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -81,7 +81,7 @@ extension TemplateTableViewCell {
 }
 
 // MARK: - UI 界面布局
-extension TemplateTableViewCell {
+extension TemplateUITableViewCell {
     // 界面布局
     fileprivate func initialUI() -> Void {
         // mainView - 整体布局，便于扩展，特别是针对分割、背景色、四周间距
@@ -98,7 +98,7 @@ extension TemplateTableViewCell {
 }
 
 // MARK: - Data 数据加载
-extension TemplateTableViewCell {
+extension TemplateUITableViewCell {
     /// 重置
     fileprivate func resetSelf() -> Void {
         self.selectionStyle = .none
@@ -113,7 +113,7 @@ extension TemplateTableViewCell {
 }
 
 // MARK: - Event  事件响应
-extension TemplateTableViewCell {
+extension TemplateUITableViewCell {
     
 }
 

@@ -1,5 +1,5 @@
 //
-//  TemplateListView.swift
+//  TemplateUITableView.swift
 //  SwiftKit-XiaoDe
 //
 //  Created by 小唐 on 29/05/2018.
@@ -9,7 +9,8 @@
 
 import UIKit
 
-class TemplateListView: UIView {
+typealias TemplateListView = TemplateUITableView
+class TemplateUITableView: UIView {
     
     // MARK: - Internal Property
     // MARK: - Private Property
@@ -40,7 +41,7 @@ class TemplateListView: UIView {
 // MARK: - Internal Function
 
 // MARK: - Private  UI
-extension TemplateListView {
+extension TemplateUITableView {
     
     // 界面布局
     fileprivate func initialUI() -> Void {
@@ -64,7 +65,7 @@ extension TemplateListView {
 
 // MARK: - Delegate Function
 // MARK: - <UITableViewDataSource>
-extension TemplateListView: UITableViewDataSource {
+extension TemplateUITableView: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -93,7 +94,7 @@ extension TemplateListView: UITableViewDataSource {
 }
 
 // MARK: - <UITableViewDelegate>
-extension TemplateListView: UITableViewDelegate {
+extension TemplateUITableView: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         //return UITableViewAutomaticDimension

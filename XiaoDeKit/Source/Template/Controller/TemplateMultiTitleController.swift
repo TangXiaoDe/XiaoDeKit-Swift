@@ -1,5 +1,5 @@
 //
-//  TemplateControllerMultiTitle.swift
+//  TemplateMultiTitleController.swift
 //  SwiftKit-XiaoDe
 //
 //  Created by 小唐 on 2018/10/20.
@@ -9,7 +9,7 @@
 
 import UIKit
 
-class TemplateControllerMultiTitle: UIViewController {
+class TemplateMultiTitleController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

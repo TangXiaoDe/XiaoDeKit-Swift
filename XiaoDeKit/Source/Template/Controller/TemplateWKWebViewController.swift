@@ -1,5 +1,5 @@
 //
-//  TemplateControllerWKWebView.swift
+//  TemplateWKWebViewController.swift
 //  ChainOneKit
 //
 //  Created by 小唐 on 2019/1/11.
@@ -10,7 +10,7 @@
 import UIKit
 import WebKit
 
-class TemplateControllerWKWebView: UIViewController
+class TemplateWKWebViewController: UIViewController
 {
     // MARK: - Internal Property
     let source: WebViewSource
@@ -66,7 +66,7 @@ class TemplateControllerWKWebView: UIViewController
 // MARK: - Internal Function
 
 // MARK: - LifeCircle Function
-extension TemplateControllerWKWebView {
+extension TemplateWKWebViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initialUI()
@@ -82,7 +82,7 @@ extension TemplateControllerWKWebView {
 }
 
 // MARK: - UI
-extension TemplateControllerWKWebView {
+extension TemplateWKWebViewController {
     /// 页面布局
     fileprivate func initialUI() -> Void {
         self.view.backgroundColor = UIColor.white
@@ -104,7 +104,7 @@ extension TemplateControllerWKWebView {
 }
 
 // MARK: - Data(数据处理与加载)
-extension TemplateControllerWKWebView {
+extension TemplateWKWebViewController {
     /// 默认数据加载
     fileprivate func initialDataSource() -> Void {
         // open func loadRequest(_ request: URLRequest)
@@ -132,17 +132,17 @@ extension TemplateControllerWKWebView {
 }
 
 // MARK: - Event(事件响应)
-extension TemplateControllerWKWebView {
+extension TemplateWKWebViewController {
     
 }
 
 // MARK: - Notification
-extension TemplateControllerWKWebView {
+extension TemplateWKWebViewController {
     
 }
 
 // MARK: - Extension Function
-extension TemplateControllerWKWebView {
+extension TemplateWKWebViewController {
     /// 执行js
     fileprivate func executeJS(_ js: String, complete: ((Any?, Error?) -> Void)? = nil ) -> Void {
         self.webView.evaluateJavaScript(js) { (result, error) in
@@ -154,7 +154,7 @@ extension TemplateControllerWKWebView {
 // MARK: - Delegate Function
 
 // MARK: - <WKNavigationDelegate>
-extension TemplateControllerWKWebView: WKNavigationDelegate {
+extension TemplateWKWebViewController: WKNavigationDelegate {
     
     /// 加载完成
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
@@ -174,6 +174,6 @@ extension TemplateControllerWKWebView: WKNavigationDelegate {
 }
 
 // MARK: - <WKUIDelegate>
-extension TemplateControllerWKWebView: WKUIDelegate {
+extension TemplateWKWebViewController: WKUIDelegate {
     
 }

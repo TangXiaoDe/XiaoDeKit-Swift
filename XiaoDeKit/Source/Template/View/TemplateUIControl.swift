@@ -1,5 +1,5 @@
 //
-//  TemplateControl.swift
+//  TemplateUIControl.swift
 //  SwiftKit-XiaoDe
 //
 //  Created by 小唐 on 13/02/2018.
@@ -10,7 +10,7 @@
 import Foundation
 import UIKit
 
-class TemplateControl: UIControl
+class TemplateUIControl: UIControl
 {
     
     // MARK: - Internal Property
@@ -56,7 +56,7 @@ class TemplateControl: UIControl
 // MARK: - Override Function
 
 // MARK: - Private  UI
-extension TemplateControl {
+extension TemplateUIControl {
     /// 界面布局
     fileprivate func initialUI() -> Void {
         self.backgroundColor = UIColor.white
@@ -77,7 +77,7 @@ extension TemplateControl {
 }
 
 // MARK: - Private  数据(处理 与 加载)
-extension TemplateControl {
+extension TemplateUIControl {
     /// 数据加载
     fileprivate func setupWithModel(_ model: (icon: UIImage?, title: String)?) -> Void {
         guard let model = model else {

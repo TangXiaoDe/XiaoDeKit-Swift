@@ -1,5 +1,5 @@
 //
-//  TemplateControllerTableView.swift
+//  TemplateUITableViewController.swift
 //  SwiftKit-XiaoDe
 //
 //  Created by 小唐 on 13/02/2018.
@@ -13,7 +13,7 @@
 
 import UIKit
 
-class TemplateControllerTableView: UIViewController
+class TemplateUITableViewController: UIViewController
 {
     
     // MARK: - Internal Property
@@ -40,7 +40,7 @@ class TemplateControllerTableView: UIViewController
 // MARK: - Internal Function
 
 // MARK: - LifeCircle Function
-extension TemplateControllerTableView {
+extension TemplateUITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initialUI()
@@ -49,7 +49,7 @@ extension TemplateControllerTableView {
 }
 
 // MARK: - UI
-extension TemplateControllerTableView {
+extension TemplateUITableViewController {
     fileprivate func initialUI() -> Void {
         self.view.backgroundColor = UIColor.white
         // 1. navigationbar
@@ -73,7 +73,7 @@ extension TemplateControllerTableView {
 }
 
 // MARK: - Data(数据处理与加载)
-extension TemplateControllerTableView {
+extension TemplateUITableViewController {
     // MARK: - Private  数据处理与加载
     fileprivate func initialDataSource() -> Void {
         
@@ -81,34 +81,34 @@ extension TemplateControllerTableView {
 }
 
 // MARK: - Event(事件响应)
-extension TemplateControllerTableView {
+extension TemplateUITableViewController {
     
 }
 
 // MARK; - Request(网络请求)
-extension TemplateControllerTableView {
+extension TemplateUITableViewController {
     
 }
 
 // MARK: - Enter Page
-extension TemplateControllerTableView {
+extension TemplateUITableViewController {
     
 }
 
 // MARK: - Notification
-extension TemplateControllerTableView {
+extension TemplateUITableViewController {
     
 }
 
 // MARK: - Extension
-extension TemplateControllerTableView {
+extension TemplateUITableViewController {
     
 }
 
 // MARK: - Delegate Function
 
 // MARK: - <UITableViewDataSource>
-extension TemplateControllerTableView: UITableViewDataSource {
+extension TemplateUITableViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -137,7 +137,7 @@ extension TemplateControllerTableView: UITableViewDataSource {
 }
 
 // MARK: - <UITableViewDelegate>
-extension TemplateControllerTableView: UITableViewDelegate {
+extension TemplateUITableViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         //return UITableView.automaticDimension

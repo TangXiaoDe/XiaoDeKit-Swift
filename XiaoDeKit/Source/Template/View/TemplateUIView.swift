@@ -1,26 +1,25 @@
 //
-//  TemplateCollectionViewCell.swift
+//  TemplateUIView.swift
 //  SwiftKit-XiaoDe
 //
 //  Created by 小唐 on 13/02/2018.
 //  Copyright © 2018 ChainOne. All rights reserved.
 //
-//  UICollectionViewCell 的使用模板
+//  UIView 的使用模板
 
 import UIKit
 
-///  UICollectionViewCell 的使用模板
-class TemplateCollectionViewCell: UICollectionViewCell {
+///  UIView 的使用模板
+class TemplateUIView: UIView {
     
     // MARK: - Internal Property
-    
-    static let identifier: String = "TemplateCollectionViewCellReuseIdentifier"
     
     var model: String? {
         didSet {
             self.setupWithModel(model)
         }
     }
+    
     
     // MARK: - Private Property
     
@@ -37,10 +36,11 @@ class TemplateCollectionViewCell: UICollectionViewCell {
     }
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        self.commonInit()
         //fatalError("init(coder:) has not been implemented")
     }
     
-    /// 通用初始化
+    /// 通用初始化：UI、配置、数据等
     func commonInit() -> Void {
         self.initialUI()
     }
@@ -48,41 +48,44 @@ class TemplateCollectionViewCell: UICollectionViewCell {
 }
 
 // MARK: - Internal Function
-extension TemplateCollectionViewCell {
-    class func cellInCollectionView(_ collectionView: UICollectionView, at indexPath: IndexPath) -> TemplateCollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: self.identifier, for: indexPath)
-        (cell as! TemplateCollectionViewCell).resetSelf()
-        return cell as! TemplateCollectionViewCell
+extension TemplateUIView {
+    class func loadXib() -> TemplateUIView? {
+        return Bundle.main.loadNibNamed("TemplateUIView", owner: nil, options: nil)?.first as? TemplateUIView
     }
-    
 }
 
 // MARK: - LifeCircle Function
-extension TemplateCollectionViewCell {
+extension TemplateUIView {
     override func awakeFromNib() {
         super.awakeFromNib()
         self.initialInAwakeNib()
     }
+    
+    /// 布局子控件
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+    }
+    
 }
 // MARK: - Private UI 手动布局
-extension TemplateCollectionViewCell {
+extension TemplateUIView {
     
     /// 界面布局
     fileprivate func initialUI() -> Void {
         self.addSubview(self.mainView)
         self.initialMainView(self.mainView)
-        //        self.mainView.snp.makeConstraints { (make) in
-        //            make.edges.equalToSuperview()
-        //        }
+        //self.mainView.snp.makeConstraints { (make) in
+        //    make.edges.equalToSuperview()
+        //}
     }
     fileprivate func initialMainView(_ mainView: UIView) -> Void {
-        mainView.backgroundColor = UIColor.white
         
     }
     
 }
 // MARK: - Private UI Xib加载后处理
-extension TemplateCollectionViewCell {
+extension TemplateUIView {
     /// awakeNib时的处理
     fileprivate func initialInAwakeNib() -> Void {
         
@@ -90,24 +93,32 @@ extension TemplateCollectionViewCell {
 }
 
 // MARK: - Data Function
-extension TemplateCollectionViewCell {
+extension TemplateUIView {
     /// 数据加载
     fileprivate func setupWithModel(_ model: String?) -> Void {
         guard let _ = model else {
             return
         }
+        // 子控件数据加载
     }
     
-    fileprivate func resetSelf() -> Void {
-        self.isSelected = false
-    }
 }
 
 // MARK: - Event Function
+extension TemplateUIView {
+    
+}
 
 // MARK: - Extension Function
+extension TemplateUIView {
+    
+}
 
-// MARK: - <>
+// MARK: - Delegate Function
 
+// MARK: - <XXXDelegate>
+extension TemplateUIView {
+    
+}
 
 

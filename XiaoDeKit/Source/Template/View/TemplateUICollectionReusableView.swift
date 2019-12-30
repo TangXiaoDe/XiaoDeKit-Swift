@@ -1,5 +1,5 @@
 //
-//  TemplateCollectionReusableView.swift
+//  TemplateUICollectionReusableView.swift
 //  SwiftKit-XiaoDe
 //
 //  Created by 小唐 on 13/02/2018.
@@ -10,12 +10,12 @@
 
 import UIKit
 
-class TemplateCollectionReusableView: UICollectionReusableView {
+class TemplateUICollectionReusableView: UICollectionReusableView {
     
     // MARK: - Internal Property
     
     static let headerHeight: CGFloat = 32
-    static let identifier: String = "TemplateCollectionReusableViewReusableIdentifier"
+    static let identifier: String = "TemplateUICollectionReusableViewReusableIdentifier"
     
     var model: String? {
         didSet {
@@ -44,27 +44,27 @@ class TemplateCollectionReusableView: UICollectionReusableView {
 }
 
 // MARK: - Internal Function
-extension TemplateCollectionReusableView {
-    class func headerInCollectionView(_ collectionView: UICollectionView, at indexPath: IndexPath, of kind: String) -> TemplateCollectionReusableView {
-        let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: TemplateCollectionReusableView.identifier, for: indexPath)
-        (header as! TemplateCollectionReusableView).resetSelf()
-        return header as! TemplateCollectionReusableView
+extension TemplateUICollectionReusableView {
+    class func headerInCollectionView(_ collectionView: UICollectionView, at indexPath: IndexPath, of kind: String) -> TemplateUICollectionReusableView {
+        let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: TemplateUICollectionReusableView.identifier, for: indexPath)
+        (header as! TemplateUICollectionReusableView).resetSelf()
+        return header as! TemplateUICollectionReusableView
     }
     
-    class func loadXib() -> TemplateCollectionReusableView? {
-        return Bundle.main.loadNibNamed("TemplateCollectionReusableView", owner: nil, options: nil)?.first as? TemplateCollectionReusableView
+    class func loadXib() -> TemplateUICollectionReusableView? {
+        return Bundle.main.loadNibNamed("TemplateUICollectionReusableView", owner: nil, options: nil)?.first as? TemplateUICollectionReusableView
     }
 }
 
 // MARK: - LifeCircle Function
-extension TemplateCollectionReusableView {
+extension TemplateUICollectionReusableView {
     override func awakeFromNib() {
         super.awakeFromNib()
         self.initialInAwakeNib()
     }
 }
 // MARK: - Private UI 手动布局
-extension TemplateCollectionReusableView {
+extension TemplateUICollectionReusableView {
     
     /// 界面布局
     fileprivate func initialUI() -> Void {
@@ -80,7 +80,7 @@ extension TemplateCollectionReusableView {
     
 }
 // MARK: - Private UI Xib加载后处理
-extension TemplateCollectionReusableView {
+extension TemplateUICollectionReusableView {
     /// awakeNib时的处理
     fileprivate func initialInAwakeNib() -> Void {
         
@@ -88,7 +88,7 @@ extension TemplateCollectionReusableView {
 }
 
 // MARK: - Data Function
-extension TemplateCollectionReusableView {
+extension TemplateUICollectionReusableView {
     /// 数据重置
     fileprivate func resetSelf() -> Void {
         
@@ -100,7 +100,7 @@ extension TemplateCollectionReusableView {
 }
 
 // MARK: - Event Function
-extension TemplateCollectionReusableView {
+extension TemplateUICollectionReusableView {
     
 }
 
