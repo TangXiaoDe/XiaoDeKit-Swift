@@ -72,7 +72,7 @@ extension TemplateUICollectionViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.showsVerticalScrollIndicator = false
-        collectionView.register(TemplateCollectionViewCell.self, forCellWithReuseIdentifier: TemplateCollectionViewCell.identifier)
+        collectionView.register(TemplateUICollectionViewCell.self, forCellWithReuseIdentifier: TemplateUICollectionViewCell.identifier)
         //collectionView.register(TemplateSectionHeader.self, forSupplementaryViewOfKind: self.headerKind, withReuseIdentifier: TemplateSectionHeader.identifier)
         //collectionView.mj_header = XDRefreshHeader(refreshingTarget: self, refreshingAction: #selector(refreshRequest))
         //collectionView.mj_footer = XDRefreshFooter(refreshingTarget: self, refreshingAction: #selector(loadmoreRequest))
@@ -169,7 +169,7 @@ extension TemplateUICollectionViewController: UICollectionViewDataSource {
         return count
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = TemplateCollectionViewCell.cellInCollectionView(collectionView, at: indexPath)
+        let cell = TemplateUICollectionViewCell.cellInCollectionView(collectionView, at: indexPath)
         cell.model = "Just Test"
         return cell
     }

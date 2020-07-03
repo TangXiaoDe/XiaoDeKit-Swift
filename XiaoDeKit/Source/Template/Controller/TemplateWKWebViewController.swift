@@ -13,32 +13,32 @@ import WebKit
 class TemplateWKWebViewController: UIViewController
 {
     // MARK: - Internal Property
-    let source: WebViewSource
+    let source: XDWebViewSource
     
     // MARK: - Private Property
     fileprivate weak var webView: WKWebView!
     
     // MARK: - Initialize Function
     
-    init(source: WebViewSource) {
+    init(source: XDWebViewSource) {
         self.source = source
         super.init(nibName: nil, bundle: nil)
     }
     init(url: URL) {
-        self.source = WebViewSource.url(url: url)
+        self.source = XDWebViewSource.url(url: url)
         super.init(nibName: nil, bundle: nil)
     }
     init(strUrl: String) {
-        self.source = WebViewSource.strUrl(strUrl: strUrl)
+        self.source = XDWebViewSource.strUrl(strUrl: strUrl)
         super.init(nibName: nil, bundle: nil)
     }
     init(html: String, baseURL: URL? = Bundle.main.bundleURL) {
-        self.source = WebViewSource.html(html: html, baseURL: baseURL)
+        self.source = XDWebViewSource.html(html: html, baseURL: baseURL)
         super.init(nibName: nil, bundle: nil)
     }
     /// 1. 该构造方法需要进一步进行测试
     init(data: Data, mimeType: String = "text/html", encodingName: String = "utf-8", baseURL: URL = Bundle.main.bundleURL) {
-        self.source = WebViewSource.data(data: data, mimeType: mimeType, encodingName: encodingName, baseURL: baseURL)
+        self.source = XDWebViewSource.data(data: data, mimeType: mimeType, encodingName: encodingName, baseURL: baseURL)
         super.init(nibName: nil, bundle: nil)
     }
     /// 文件加载
@@ -47,8 +47,8 @@ class TemplateWKWebViewController: UIViewController
             fatalError("htmlFile \(htmlFile) 加载异常")
             //return
         }
-        //self.source = WebViewSource.data(data: htmlData, mimeType: "text/html", encodingName: "utf-8", baseURL: Bundle.main.bundleURL)
-        self.source = WebViewSource.html(html: htmlString, baseURL: Bundle.main.bundleURL)
+        //self.source = XDWebViewSource.data(data: htmlData, mimeType: "text/html", encodingName: "utf-8", baseURL: Bundle.main.bundleURL)
+        self.source = XDWebViewSource.html(html: htmlString, baseURL: Bundle.main.bundleURL)
         super.init(nibName: nil, bundle: nil)
     }
     

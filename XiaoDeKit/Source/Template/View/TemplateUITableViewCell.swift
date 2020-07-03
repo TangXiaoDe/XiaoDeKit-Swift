@@ -25,9 +25,31 @@ class TemplateUITableViewCell: UITableViewCell
         }
     }
     
+    var showBottomLine: Bool = true {
+        didSet {
+            self.bottomLine.isHidden = !showBottomLine
+        }
+    }
+    var showTopMargin: Bool = false {
+        didSet {
+            self.setupShowTopMargin(showTopMargin)
+        }
+    }
+    var showBottomMargin: Bool = true {
+        didSet {
+            self.setupShowBottomMargin(showBottomMargin)
+        }
+    }
+    
+    
+    
     // MARK: - fileprivate Property
     
     fileprivate let mainView: UIView = UIView()
+    fileprivate let bottomLine: UIView = UIView()
+    
+    fileprivate let topSeparateMargin: CGFloat = 5      // 顶部间距，多用于分组首个cell时的间距展示；
+    fileprivate let bottomSeparateMargin: CGFloat = 5   // 底部间距
     
     // MARK: - Initialize Function
     
@@ -88,13 +110,16 @@ extension TemplateUITableViewCell {
         self.contentView.addSubview(mainView)
         self.initialMainView(self.mainView)
 //        mainView.snp.makeConstraints { (make) in
-//            make.edges.equalToSuperview()
+//            make.leading.trailing.equalToSuperview()
+//            make.top.equalToSuperview().offset(0)
+//            make.bottom.equalToSuperview().offset(-self.bottomSeparateMargin)
 //        }
     }
     // 主视图布局
     fileprivate func initialMainView(_ mainView: UIView) -> Void {
         mainView.backgroundColor = UIColor.white
     }
+
 }
 
 // MARK: - Data 数据加载
@@ -102,6 +127,10 @@ extension TemplateUITableViewCell {
     /// 重置
     fileprivate func resetSelf() -> Void {
         self.selectionStyle = .none
+        self.isSelected = false
+        self.showTopMargin = false
+        self.showBottomMargin = true
+        self.showBottomLine = true
     }
     /// 数据加载
     fileprivate func setupWithModel(_ model: String?) -> Void {
@@ -110,6 +139,24 @@ extension TemplateUITableViewCell {
         }
         
     }
+    
+    /// 顶部间距是否显示
+    fileprivate func setupShowTopMargin(_ show: Bool) -> Void {
+        //let topMargin: CGFloat = show ? self.topSeparateMargin : 0
+        //mainView.snp.updateConstraints { (make) in
+        //    make.top.equalToSuperview().offset(topMargin)
+        //}
+        //self.layoutIfNeeded()
+    }
+    /// 底部间距是否显示
+    fileprivate func setupShowBottomMargin(_ show: Bool) -> Void {
+        //let bottomMargin: CGFloat = show ? self.bottomSeparateMargin : 0
+        //mainView.snp.updateConstraints { (make) in
+        //    make.bottom.equalToSuperview().offset(-bottomMargin)
+        //}
+        //self.layoutIfNeeded()
+    }
+
 }
 
 // MARK: - Event  事件响应
