@@ -1,9 +1,9 @@
 //
 //  TemplateViewAverageWidthTitle.swift
-//  iMeet
+//  XiaoDeKit
 //
 //  Created by 小唐 on 2019/6/12.
-//  Copyright © 2019 ChainOne. All rights reserved.
+//  Copyright © 2019 XiaoDeStudio. All rights reserved.
 //
 //  均分的标题选择视图控件
 

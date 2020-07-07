@@ -1,8 +1,9 @@
 //
 //  ChainOneHelper.swift
-//  ChainOneKit-Swift
+//  XiaoDeKit
 //
 //  Created by 小唐 on 2019/5/30.
+//  Copyright © 2019 XiaoDeStudio. All rights reserved.
 //
 //  ChainOne助手
 

@@ -1,9 +1,9 @@
 //
 //  TemplateMJRefreshTableView.swift
-//  SwiftTemplate
+//  XiaoDeKit
 //
 //  Created by 小唐 on 2019/5/20.
-//  Copyright © 2019 ChainOne. All rights reserved.
+//  Copyright © 2019 XiaoDeStudio. All rights reserved.
 //
 //  带有MJRefresh刷新的TableView
 

@@ -1,9 +1,9 @@
 //
 //  UIView+Extension.swift
-//  SwiftKit-XiaoDe
+//  XiaoDeKit
 //
 //  Created by 小唐 on 13/02/2018.
-//  Copyright © 2018 ChainOne. All rights reserved.
+//  Copyright © 2018 XiaoDeStudio. All rights reserved.
 //
 //  UIView的扩展
 //  注1：添加线条方式的扩展具有严重的bug，使用原生方式增加约束时需考虑其本身的约束，否则直接添加会到值其本身约束消失。

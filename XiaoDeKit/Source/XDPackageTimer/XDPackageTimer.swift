@@ -1,9 +1,9 @@
 //
 //  XDPackageTimer.swift
-//  SwiftTemplate
+//  XiaoDeKit
 //
 //  Created by 小唐 on 2019/4/10.
-//  Copyright © 2019 ChainOne. All rights reserved.
+//  Copyright © 2019 XiaoDeStudio. All rights reserved.
 //
 //  Timer封装，解决内存循环引用问题
 /**

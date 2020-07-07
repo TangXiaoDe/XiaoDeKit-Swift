@@ -1,9 +1,9 @@
 //
 //  NSMutableAttributedString+Extension.swift
-//  ChainOneKit
+//  XiaoDeKit
 //
 //  Created by 小唐 on 2019/2/28.
-//  Copyright © 2019 ChainOne. All rights reserved.
+//  Copyright © 2019 XiaoDeStudio. All rights reserved.
 //
 //  NSMutableAttributedString的扩展库
 

@@ -1,9 +1,9 @@
 //
 //  TemplateUICollectionViewController.swift
-//  ChainOneKit
+//  XiaoDeKit
 //
 //  Created by 小唐 on 2019/3/5.
-//  Copyright © 2019 ChainOne. All rights reserved.
+//  Copyright © 2019 XiaoDeStudio. All rights reserved.
 //
 //  UICollectionView的模板
 

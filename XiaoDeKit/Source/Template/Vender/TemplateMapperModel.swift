@@ -1,9 +1,9 @@
 //
 //  TemplateMapperModel.swift
-//  SwiftKit-XiaoDe
+//  XiaoDeKit
 //
 //  Created by 小唐 on 13/02/2018.
-//  Copyright © 2018 ChainOne. All rights reserved.
+//  Copyright © 2018 XiaoDeStudio. All rights reserved.
 //
 //  用于xx处的xxx数据模型
 

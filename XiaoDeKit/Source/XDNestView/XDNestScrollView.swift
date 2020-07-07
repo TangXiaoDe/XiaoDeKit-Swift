@@ -1,9 +1,9 @@
 //
 //  XDNestScrollView.swift
-//  ChainOneKit
+//  XiaoDeKit
 //
 //  Created by 小唐 on 2019/3/4.
-//  Copyright © 2019 ChainOne. All rights reserved.
+//  Copyright © 2019 XiaoDeStudio. All rights reserved.
 //
 //  嵌套的可同时滚动的ScrollView
 //  允许手势和事件通过的UIScrollView

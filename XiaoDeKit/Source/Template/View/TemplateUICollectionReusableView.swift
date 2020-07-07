@@ -1,9 +1,9 @@
 //
 //  TemplateUICollectionReusableView.swift
-//  SwiftKit-XiaoDe
+//  XiaoDeKit
 //
 //  Created by 小唐 on 13/02/2018.
-//  Copyright © 2018 ChainOne. All rights reserved.
+//  Copyright © 2018 XiaoDeStudio. All rights reserved.
 //
 //  UICollectionReusableView 的使用模板
 //  用于UICollectionView的SectionHeader和SectionFooter

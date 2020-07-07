@@ -1,6 +1,9 @@
 //
+//  UIViewController+Extension.swift
+//  XiaoDeKit
+//
 //  Created by 小唐 on 05/06/2018.
-//  Copyright (c) 2018 ChainOne. All rights reserved.
+//  Copyright (c) 2018 XiaoDeStudio. All rights reserved.
 //
 //  UIViewController的扩展
 

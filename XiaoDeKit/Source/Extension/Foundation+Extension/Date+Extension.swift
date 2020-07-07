@@ -1,9 +1,9 @@
 //
 //  Date+Extension.swift
-//  SwiftKit-XiaoDe
+//  XiaoDeKit
 //
 //  Created by 小唐 on 2018/8/20.
-//  Copyright © 2018 ChainOne. All rights reserved.
+//  Copyright © 2018 XiaoDeStudio. All rights reserved.
 //
 //  时间的扩展
 

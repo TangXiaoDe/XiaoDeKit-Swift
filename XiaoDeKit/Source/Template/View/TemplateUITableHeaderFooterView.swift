@@ -1,9 +1,9 @@
 //
 //  TemplateUITableHeaderFooterView.swift
-//  SwiftKit-XiaoDe
+//  XiaoDeKit
 //
 //  Created by 小唐 on 13/02/2018.
-//  Copyright © 2018 ChainOne. All rights reserved.
+//  Copyright © 2018 XiaoDeStudio. All rights reserved.
 //
 //  UITableViewHeaderFooterView 的使用模板
 

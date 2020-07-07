@@ -1,9 +1,9 @@
 //
 //  TextFieldHelper.swift
-//  ThinkSNS +
+//  XiaoDeKit
 //
 //  Created by 小唐 on 29/09/2017.
-//  Copyright © 2017 ZhiYiCX. All rights reserved.
+//  Copyright © 2017 XiaoDeStudio. All rights reserved.
 //
 //  UITextField的助手
 
