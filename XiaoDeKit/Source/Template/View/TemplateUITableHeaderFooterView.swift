@@ -15,10 +15,21 @@ class TemplateUITableHeaderFooterView: UITableViewHeaderFooterView
 {
     
     // MARK: - Internal Property
+
     static let headerHeight: CGFloat = 75
     static let identifier: String = "TemplateUITableHeaderFooterViewReuseIdentifier"
     
+    var title: String? = nil {
+        didSet {
+            self.titleLabel.text = title
+        }
+    }
+    
     // MARK: - Private Property
+    
+    fileprivate let titleLabel: UILabel = UILabel.init()
+
+    fileprivate let lrMargin: CGFloat = 12
     
     // MARK: - Initialize Function
     
@@ -40,6 +51,7 @@ class TemplateUITableHeaderFooterView: UITableViewHeaderFooterView
 
 // MARK: - Internal Function
 extension TemplateUITableHeaderFooterView {
+
     /// 便利构造
     class func headerInTableView(_ tableView: UITableView) -> TemplateUITableHeaderFooterView {
         let identifier = self.identifier
@@ -63,21 +75,28 @@ extension TemplateUITableHeaderFooterView {
 
 // MARK: - UI
 extension TemplateUITableHeaderFooterView {
-    /// 重置
-    fileprivate func resetSelf() -> Void {
-        
-    }
 
     /// 界面布局
     fileprivate func initialUI() -> Void {
-        
+        // 1. titleLabel
+        self.contentView.addSubview(self.titleLabel)
+        self.titleLabel.set(text: nil, font: UIFont.systemFont(ofSize: 16), textColor: UIColor.init(hex: 0x333333))
+        //self.titleLabel.snp.makeConstraints { (make) in
+        //    make.leading.equalToSuperview().offset(self.lrMargin)
+        //    make.centerY.equalToSuperview()
+        //}
     }
 
 }
 
 // MARK: - Data
 extension TemplateUITableHeaderFooterView {
-    
+
+    /// 重置
+    fileprivate func resetSelf() -> Void {
+        self.titleLabel.text = nil
+    }
+
 }
 
 // MARK: - Event

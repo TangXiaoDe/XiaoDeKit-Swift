@@ -11,6 +11,7 @@ import UIKit
 
 class TemplatePresentedController: UIViewController
 {
+
     // MARK: - Internal Property
     
     // MARK: - Private Property
@@ -26,46 +27,50 @@ class TemplatePresentedController: UIViewController
         //super.init(coder: aDecoder)
         fatalError("init(coder:) has not been implemented")
     }
-    
-//    /// injection回调
-//    @objc func injected() -> Void {
-//        self.viewDidLoad()
-//    }
+
 }
 
 // MARK: - Internal Function
 
 // MARK: - LifeCircle Function
 extension TemplatePresentedController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initialUI()
         self.initialDataSource()
     }
-    
+
+    /// 控制器的view将要显示
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
+    /// 控制器的view即将消失
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
     }
+
 }
 
 // MARK: - UI
 extension TemplatePresentedController {
+
     /// 页面布局
     fileprivate func initialUI() -> Void {
         self.view.backgroundColor = UIColor.white
         
     }
+
 }
 
 // MARK: - Data(数据处理与加载)
 extension TemplatePresentedController {
+
     /// 默认数据加载
     fileprivate func initialDataSource() -> Void {
         
     }
+
 }
 
 // MARK: - Event(事件响应)

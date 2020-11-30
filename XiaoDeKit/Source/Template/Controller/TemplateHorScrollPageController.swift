@@ -11,6 +11,7 @@ import UIKit
 
 class TemplateHorScrollPageController: UIViewController
 {
+
     // MARK: - Internal Property
     
     // MARK: - Private Property
@@ -43,33 +44,34 @@ class TemplateHorScrollPageController: UIViewController
         super.init(coder: aDecoder)
         //fatalError("init(coder:) has not been implemented")
     }
-    
-    //    /// injection回调
-    //    @objc func injected() -> Void {
-    //        self.viewDidLoad()
-    //    }
+
 }
 
 // MARK: - Internal Function
 
 // MARK: - LifeCircle Function
 extension TemplateHorScrollPageController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initialUI()
         self.initialDataSource()
     }
     
+    /// 控制器的view将要显示
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
+    /// 控制器的view即将消失
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
     }
+
 }
 
 // MARK: - UI
 extension TemplateHorScrollPageController {
+
     /// 页面布局
     fileprivate func initialUI() -> Void {
         self.view.backgroundColor = UIColor.white
@@ -79,7 +81,6 @@ extension TemplateHorScrollPageController {
         self.titleSegment.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 14)], for: .selected)
         self.titleSegment.tintColor = UIColor.blue
         self.titleSegment.addTarget(self, action: #selector(segmentClick(_:)), for: .valueChanged)
-        
         self.navigationItem.titleView = self.titleSegment
         // scrollView
         self.view.addSubview(self.scrollView)
@@ -117,12 +118,14 @@ extension TemplateHorScrollPageController {
 
 // MARK: - Data(数据处理与加载)
 extension TemplateHorScrollPageController {
+
     /// 默认数据加载
     fileprivate func initialDataSource() -> Void {
         // 默认选择
         self.titleSegment.selectedSegmentIndex = 0
         self.selectedIndex = 0
     }
+
 }
 
 // MARK: - Event(事件响应)
@@ -133,6 +136,7 @@ extension TemplateHorScrollPageController {
         let index = segment.selectedSegmentIndex
         self.selectedIndex = index
     }
+
 }
 
 // MARK: - Notification
@@ -149,10 +153,12 @@ extension TemplateHorScrollPageController {
 
 // MARK: - <UIScrollViewDelegate>
 extension TemplateHorScrollPageController: UIScrollViewDelegate {
+
     /// 滑动结束 回调
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         let scrollIndex: Int = Int(scrollView.contentOffset.x / kScreenWidth)
         self.selectedIndex = scrollIndex
     }
+
 }
 

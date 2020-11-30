@@ -12,6 +12,7 @@ import WebKit
 
 class TemplateWKWebViewController: UIViewController
 {
+
     // MARK: - Internal Property
     let source: XDWebViewSource
     
@@ -57,32 +58,33 @@ class TemplateWKWebViewController: UIViewController
         fatalError("init(coder:) has not been implemented")
     }
 
-    //    /// injection回调
-    //    @objc func injected() -> Void {
-    //        self.viewDidLoad()
-    //    }
 }
 
 // MARK: - Internal Function
 
 // MARK: - LifeCircle Function
 extension TemplateWKWebViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initialUI()
         self.initialDataSource()
     }
     
+    /// 控制器的view将要显示
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
+    /// 控制器的view即将消失
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
     }
+
 }
 
 // MARK: - UI
 extension TemplateWKWebViewController {
+
     /// 页面布局
     fileprivate func initialUI() -> Void {
         self.view.backgroundColor = UIColor.white
@@ -101,10 +103,12 @@ extension TemplateWKWebViewController {
         // 注册js(使用WKScriptMessageHandler)
         
     }
+
 }
 
 // MARK: - Data(数据处理与加载)
 extension TemplateWKWebViewController {
+
     /// 默认数据加载
     fileprivate func initialDataSource() -> Void {
         // open func loadRequest(_ request: URLRequest)
@@ -129,6 +133,7 @@ extension TemplateWKWebViewController {
             self.webView.load(data, mimeType: mimeType, characterEncodingName: encodingName, baseURL: baseURL)
         }
     }
+
 }
 
 // MARK: - Event(事件响应)
@@ -143,12 +148,14 @@ extension TemplateWKWebViewController {
 
 // MARK: - Extension Function
 extension TemplateWKWebViewController {
+
     /// 执行js
     fileprivate func executeJS(_ js: String, complete: ((Any?, Error?) -> Void)? = nil ) -> Void {
         self.webView.evaluateJavaScript(js) { (result, error) in
             complete?(result, error)
         }
     }
+
 }
 
 // MARK: - Delegate Function

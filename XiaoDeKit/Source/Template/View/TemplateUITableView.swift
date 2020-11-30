@@ -13,10 +13,14 @@ typealias TemplateListView = TemplateUITableView
 class TemplateUITableView: UIView {
     
     // MARK: - Internal Property
+
     // MARK: - Private Property
     
     fileprivate let tableView: UITableView = UITableView(frame: CGRect.zero, style: .plain)
+
     fileprivate var sourceList: [String] = []
+    fileprivate var offset: Int = 0
+    fileprivate let limit: Int = 20
     
     // MARK: - Initialize Function
     init() {
@@ -64,17 +68,21 @@ extension TemplateUITableView {
 // MARK: - Extension Function
 
 // MARK: - Delegate Function
+
 // MARK: - <UITableViewDataSource>
 extension TemplateUITableView: UITableViewDataSource {
-    
+
+    ///
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-    
+
+    ///
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 25
     }
-    
+
+    ///
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let identifier = "CellIdentifier"
         var cell = tableView.dequeueReusableCell(withIdentifier: identifier)
@@ -90,17 +98,18 @@ extension TemplateUITableView: UITableViewDataSource {
         return cell!
     }
     
-    
 }
 
 // MARK: - <UITableViewDelegate>
 extension TemplateUITableView: UITableViewDelegate {
-    
+
+    ///
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         //return UITableViewAutomaticDimension
         return 44
     }
-    
+
+    ///
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("didSelectRowAt\(indexPath.row)")
     }

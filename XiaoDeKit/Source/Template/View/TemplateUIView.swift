@@ -49,13 +49,16 @@ class TemplateUIView: UIView {
 
 // MARK: - Internal Function
 extension TemplateUIView {
+
     class func loadXib() -> TemplateUIView? {
         return Bundle.main.loadNibNamed("TemplateUIView", owner: nil, options: nil)?.first as? TemplateUIView
     }
+
 }
 
 // MARK: - LifeCircle Function
 extension TemplateUIView {
+
     override func awakeFromNib() {
         super.awakeFromNib()
         self.initialInAwakeNib()
@@ -79,6 +82,7 @@ extension TemplateUIView {
         //    make.edges.equalToSuperview()
         //}
     }
+    /// mainView布局
     fileprivate func initialMainView(_ mainView: UIView) -> Void {
         
     }
@@ -86,16 +90,23 @@ extension TemplateUIView {
 }
 // MARK: - Private UI Xib加载后处理
 extension TemplateUIView {
+
     /// awakeNib时的处理
     fileprivate func initialInAwakeNib() -> Void {
         
     }
+
 }
 
 // MARK: - Data Function
 extension TemplateUIView {
+    ///
+    fileprivate func setupAsDemo() -> Void {
+        
+    }
     /// 数据加载
     fileprivate func setupWithModel(_ model: String?) -> Void {
+        self.setupAsDemo()
         guard let _ = model else {
             return
         }
