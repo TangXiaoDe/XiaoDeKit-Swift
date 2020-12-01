@@ -31,6 +31,9 @@
 		4E5443FD5BF56E972DD45FC3C588DDF1 /* XiaoDeKit-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC231257E180E27F006BB91CAD4BA527 /* XiaoDeKit-Swift-dummy.m */; };
 		4E81A46DF8C022166B357C8201F0239E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		50DE81B430D9568E1EC14E547C3AA572 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538144914DC603F9C6C5C3863493654 /* Date+Extension.swift */; };
+		5383F7AD25762B1600E989E5 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383F7AC25762B1600E989E5 /* String+URL.swift */; };
+		5383F7B225762B4B00E989E5 /* String+PinYin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383F7B125762B4B00E989E5 /* String+PinYin.swift */; };
+		5383F7B725762BC300E989E5 /* UIFont+PingFangSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383F7B625762BC300E989E5 /* UIFont+PingFangSC.swift */; };
 		55495938467B2AAEF6A6AA68638CC00A /* TemplateUICollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E92675CF8B8943E3ABEDB0A28112D3 /* TemplateUICollectionReusableView.swift */; };
 		5564451C88E5A9AC6A5EED22990BB62C /* XDWebViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0832D911606C92AEF8BBA11FA46A28F /* XDWebViewSource.swift */; };
 		55BA90217CC3CD27C477CB5AAAE04D26 /* TemplatePresentedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809ACCF8F538A0EE87E05D35D0C2E41 /* TemplatePresentedController.swift */; };
@@ -117,6 +120,9 @@
 		4F0096C0A7D06D959DC46A65BFF19351 /* Pods-XiaoDeKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoDeKitTests-umbrella.h"; sourceTree = "<group>"; };
 		4F3133A4769E65B8810A1D9175BC3C31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		51B6B76513D4ECDD544A012ED69C4B34 /* NoHighlightedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoHighlightedButton.swift; path = XiaoDeKit/Source/Common/View/NoHighlightedButton.swift; sourceTree = "<group>"; };
+		5383F7AC25762B1600E989E5 /* String+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+URL.swift"; sourceTree = "<group>"; };
+		5383F7B125762B4B00E989E5 /* String+PinYin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+PinYin.swift"; sourceTree = "<group>"; };
+		5383F7B625762BC300E989E5 /* UIFont+PingFangSC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+PingFangSC.swift"; sourceTree = "<group>"; };
 		5538144914DC603F9C6C5C3863493654 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		5579953EB3746DCE8C8E55F2DC600099 /* TemplateUITableHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateUITableHeaderFooterView.swift; sourceTree = "<group>"; };
 		583738DB82DFBE518C19068B7DC0AE03 /* TemplateUITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateUITableViewCell.swift; sourceTree = "<group>"; };
@@ -255,6 +261,7 @@
 				7EF642E76E82615AA0122E205771837D /* UIView+Extension.swift */,
 				06E9AE388F476B91365A2DE3E004BF24 /* UIViewController+Extension.swift */,
 				47FF6B4CC57462D73393F119AC029EAA /* UIViewController+UMExtension.swift */,
+				5383F7B625762BC300E989E5 /* UIFont+PingFangSC.swift */,
 			);
 			name = "UIKit+Extension";
 			path = "XiaoDeKit/Source/Extension/UIKit+Extension";
@@ -352,6 +359,8 @@
 				2BFD3EF2A16E3B4F208C10F91D15860F /* String+Extension.swift */,
 				B1CD961DE32BD42D0C8D2503909A1B9C /* String+Localizable.swift */,
 				094F2E314333C59EA188A2B957BE7313 /* String+Regular.swift */,
+				5383F7AC25762B1600E989E5 /* String+URL.swift */,
+				5383F7B125762B4B00E989E5 /* String+PinYin.swift */,
 				5B491E8C62737D5A47647EC20F7D5275 /* Timer+Extension.swift */,
 			);
 			name = "Foundation+Extension";
@@ -653,6 +662,7 @@
 				28B5102A36D4C2CF9DF7DAF1F04512EE /* Constant.swift in Sources */,
 				50DE81B430D9568E1EC14E547C3AA572 /* Date+Extension.swift in Sources */,
 				61ADB2337276E3628A24BA0E7E854F70 /* Double+Extension.swift in Sources */,
+				5383F7B725762BC300E989E5 /* UIFont+PingFangSC.swift in Sources */,
 				F81918DCD8AABA74A80B91EF874A615C /* FileManager+Extension.swift in Sources */,
 				BA034E622D9D4CA4C4F73A28ECB94EE0 /* NoHighlightedButton.swift in Sources */,
 				885BA8E170C255236FA67B26A9AFA448 /* NSAttributedString+Extension.swift in Sources */,
@@ -673,9 +683,11 @@
 				FEE70923FDAE6EE5FC62810BB6970AB4 /* TemplateRealmModel.swift in Sources */,
 				652D636D32CFACF1B76C1259360CB307 /* TemplateSingleInstance.swift in Sources */,
 				F1AFB8BEF49D9A9CF5A11244CA511952 /* TemplateTableHeaderView.swift in Sources */,
+				5383F7AD25762B1600E989E5 /* String+URL.swift in Sources */,
 				55495938467B2AAEF6A6AA68638CC00A /* TemplateUICollectionReusableView.swift in Sources */,
 				BDB38A4239C27E4CCA05473EF67B56CD /* TemplateUICollectionViewCell.swift in Sources */,
 				2A2444F772FE0E118538746098E241A1 /* TemplateUICollectionViewController.swift in Sources */,
+				5383F7B225762B4B00E989E5 /* String+PinYin.swift in Sources */,
 				F784D675EA5DA29E17B1B96B4F922BAD /* TemplateUIControl.swift in Sources */,
 				761CF4F96778DB604F9ACA91CA0F6C97 /* TemplateUITabBarController.swift in Sources */,
 				1E4FD4D25BDA680B8F61C450AF1AF006 /* TemplateUITableHeaderFooterView.swift in Sources */,
