@@ -56,7 +56,6 @@
 		BA034E622D9D4CA4C4F73A28ECB94EE0 /* NoHighlightedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B6B76513D4ECDD544A012ED69C4B34 /* NoHighlightedButton.swift */; };
 		BD659A5C3E5377CAAB83F18C38F998F6 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E53A75E1359A8FE56C60B24CC2A09 /* UITextField+Extension.swift */; };
 		BDB38A4239C27E4CCA05473EF67B56CD /* TemplateUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA487EB47F611B6D46F7F503FDE49749 /* TemplateUICollectionViewCell.swift */; };
-		CD192A8E44388AAE6688D381722E38AE /* TemplateUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97330E12F1006CE3738502B27675AF45 /* TemplateUITableView.swift */; };
 		CDC94E786FA5D77FB874C34CAD9C8A67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CFC27B6C6DAA50FCBE8EBC8517A5130C /* TemplateMapperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C3B0148EE5A45EE4B268B92D5B9C74 /* TemplateMapperModel.swift */; };
 		D28FA781518BBCF7CDC7E21EC9379A42 /* TemplateAverageWidthTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109A2294871481C77B35B4B5E5B7574 /* TemplateAverageWidthTitleView.swift */; };
@@ -116,19 +115,19 @@
 		47FF6B4CC57462D73393F119AC029EAA /* UIViewController+UMExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+UMExtension.swift"; sourceTree = "<group>"; };
 		4809ACCF8F538A0EE87E05D35D0C2E41 /* TemplatePresentedController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplatePresentedController.swift; sourceTree = "<group>"; };
 		4F0096C0A7D06D959DC46A65BFF19351 /* Pods-XiaoDeKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoDeKitTests-umbrella.h"; sourceTree = "<group>"; };
-		4F3133A4769E65B8810A1D9175BC3C31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4F3133A4769E65B8810A1D9175BC3C31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		51B6B76513D4ECDD544A012ED69C4B34 /* NoHighlightedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoHighlightedButton.swift; path = XiaoDeKit/Source/Common/View/NoHighlightedButton.swift; sourceTree = "<group>"; };
 		5538144914DC603F9C6C5C3863493654 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		5579953EB3746DCE8C8E55F2DC600099 /* TemplateUITableHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateUITableHeaderFooterView.swift; sourceTree = "<group>"; };
 		583738DB82DFBE518C19068B7DC0AE03 /* TemplateUITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateUITableViewCell.swift; sourceTree = "<group>"; };
 		59B6B7DD6F210EEB436438FAA3527DAB /* XiaoDeKit-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XiaoDeKit-Swift-Info.plist"; sourceTree = "<group>"; };
 		59C7CCF2D991CEE8F16B3A55126B615F /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
-		5B1C1258B602865F0028A209319F4F03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5B1C1258B602865F0028A209319F4F03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5B491E8C62737D5A47647EC20F7D5275 /* Timer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Timer+Extension.swift"; sourceTree = "<group>"; };
 		5BEC8B84C885F0CDD4DDABF8F00650A9 /* Pods-XiaoDeKit-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XiaoDeKit-Example-frameworks.sh"; sourceTree = "<group>"; };
 		5C01E4FD61219DAB403A1359518AB716 /* TemplateMJRefreshFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateMJRefreshFooter.swift; sourceTree = "<group>"; };
 		64C2065CD14B4EED527010693905AF79 /* Pods-XiaoDeKit-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XiaoDeKit-Example-umbrella.h"; sourceTree = "<group>"; };
-		67029B2D3B004CD6641C1D462967182F /* Pods_XiaoDeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XiaoDeKit_Example.framework; path = "Pods-XiaoDeKit-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67029B2D3B004CD6641C1D462967182F /* Pods_XiaoDeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoDeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6726C17C5D0814687A78D020BE23C33E /* TextFieldHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldHelper.swift; path = XiaoDeKit/Source/Helper/TextFieldHelper.swift; sourceTree = "<group>"; };
 		6A8D92E94D0EBB6D1F65F3273187F70F /* TemplateUITableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateUITableViewController.swift; sourceTree = "<group>"; };
 		6B6E6AFA841873D50F1668D63A91F67A /* Pods-XiaoDeKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XiaoDeKitTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,8 +143,7 @@
 		9109A2294871481C77B35B4B5E5B7574 /* TemplateAverageWidthTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateAverageWidthTitleView.swift; sourceTree = "<group>"; };
 		9193F1750C4EF7812DCC1049AE30A04C /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		96FA35E217C5A3D5DEF2074A857705EF /* XiaoDeKit-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XiaoDeKit-Swift-umbrella.h"; sourceTree = "<group>"; };
-		97330E12F1006CE3738502B27675AF45 /* TemplateUITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateUITableView.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8496DA15D4F22A16AD775BC424DCCE5 /* TemplateMJRefreshTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateMJRefreshTableView.swift; sourceTree = "<group>"; };
 		A954973D1F75507D9FCD417105B971CC /* XDNestScrollContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDNestScrollContainerView.swift; path = XiaoDeKit/Source/XDNestView/XDNestScrollContainerView.swift; sourceTree = "<group>"; };
 		ADA78BD03F10F0F29E2FF620466559DD /* UITabBar+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBar+Extension.swift"; sourceTree = "<group>"; };
@@ -159,7 +157,7 @@
 		C11FB014C985586628FCEB2944244E31 /* Pods-XiaoDeKit-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKit-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C59C6A7089F2E05330598A615F2BA749 /* Pods-XiaoDeKit-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XiaoDeKit-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C700D3BFAADBCF643100B768DDF640E9 /* XDNestScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XDNestScrollView.swift; path = XiaoDeKit/Source/XDNestView/XDNestScrollView.swift; sourceTree = "<group>"; };
-		C7CFBAB7FDBFBD23411C713C65674C4D /* XiaoDeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XiaoDeKit.framework; path = "XiaoDeKit-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CFBAB7FDBFBD23411C713C65674C4D /* XiaoDeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XiaoDeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CE83AFE4F64E982712956E8BD6479B /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		CA33BBD9128C6BC6EA801D696604CD48 /* TemplateSingleInstance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateSingleInstance.swift; sourceTree = "<group>"; };
 		CA487EB47F611B6D46F7F503FDE49749 /* TemplateUICollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateUICollectionViewCell.swift; sourceTree = "<group>"; };
@@ -173,13 +171,13 @@
 		E03F434A01B1C7E3BCEE6EEC83272096 /* Pods-XiaoDeKit-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XiaoDeKit-Example-Info.plist"; sourceTree = "<group>"; };
 		E094007241FA7420E0F2DC20EB6F50DB /* TemplateRealmModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateRealmModel.swift; sourceTree = "<group>"; };
 		E1A9A7E9C2B31897A0B05199F83B5081 /* StringHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHelper.swift; path = XiaoDeKit/Source/Helper/StringHelper.swift; sourceTree = "<group>"; };
-		E2563E4FCC48E8A818F3091A245B8AE5 /* XiaoDeKit-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "XiaoDeKit-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2563E4FCC48E8A818F3091A245B8AE5 /* XiaoDeKit-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "XiaoDeKit-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E347904C950D3EC262B0527AF8DFF614 /* TemplateMJRefreshHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplateMJRefreshHeader.swift; sourceTree = "<group>"; };
 		E7FD2A9818218FEC58087D8532BF21C1 /* Pods-XiaoDeKit-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XiaoDeKit-Example.modulemap"; sourceTree = "<group>"; };
 		ECE9231B6D09284A32E92DE6B179CD56 /* XiaoDeKit-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "XiaoDeKit-Swift.xcconfig"; sourceTree = "<group>"; };
 		F1D996BDFF1F219A5217B45927599BFF /* TextViewHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewHelper.swift; path = XiaoDeKit/Source/Helper/TextViewHelper.swift; sourceTree = "<group>"; };
 		F7915DCEFDEC59D8C8AAB718A6A2F448 /* Pods-XiaoDeKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XiaoDeKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD68707A125508E6193AD636563CADAC /* Pods_XiaoDeKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XiaoDeKitTests.framework; path = "Pods-XiaoDeKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD68707A125508E6193AD636563CADAC /* Pods_XiaoDeKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoDeKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE6C5892F5FFE3AABE3E59B51764665 /* CGSize+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -489,7 +487,6 @@
 				CA487EB47F611B6D46F7F503FDE49749 /* TemplateUICollectionViewCell.swift */,
 				049AB2CE1C0255CA668048B925906AF4 /* TemplateUIControl.swift */,
 				5579953EB3746DCE8C8E55F2DC600099 /* TemplateUITableHeaderFooterView.swift */,
-				97330E12F1006CE3738502B27675AF45 /* TemplateUITableView.swift */,
 				583738DB82DFBE518C19068B7DC0AE03 /* TemplateUITableViewCell.swift */,
 				6DD59BB7C4156EA5CF52D36BCBD18ED7 /* TemplateUIView.swift */,
 			);
@@ -682,7 +679,6 @@
 				F784D675EA5DA29E17B1B96B4F922BAD /* TemplateUIControl.swift in Sources */,
 				761CF4F96778DB604F9ACA91CA0F6C97 /* TemplateUITabBarController.swift in Sources */,
 				1E4FD4D25BDA680B8F61C450AF1AF006 /* TemplateUITableHeaderFooterView.swift in Sources */,
-				CD192A8E44388AAE6688D381722E38AE /* TemplateUITableView.swift in Sources */,
 				0EAF54CB32195FA9DF5DBA612E6DA8C3 /* TemplateUITableViewCell.swift in Sources */,
 				DFFE432A272AA33DD58260580F712213 /* TemplateUITableViewController.swift in Sources */,
 				92520B6FB12A9137450014F122C580C7 /* TemplateUIView.swift in Sources */,
