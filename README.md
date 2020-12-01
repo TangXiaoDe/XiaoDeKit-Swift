@@ -1,7 +1,7 @@
 ## Usaing
 
 ```
-pod 'XiaoDeKit-Swift', :git => 'https://github.com/TangXiaoDe/XiaoDeKit-Swift.git', :tag => '0.1.1'
+pod 'XiaoDeKit-Swift', :git => 'https://github.com/TangXiaoDe/XiaoDeKit-Swift.git', :tag => '0.1.1.1'
 ```
 
 ```
@@ -14,6 +14,7 @@ git tag --list
 0.0.6
 0.0.7
 0.1.1
+0.1.1.1
 ```
 
 
